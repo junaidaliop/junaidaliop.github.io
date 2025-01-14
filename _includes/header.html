@@ -1,7 +1,27 @@
-<nav>
-    <ul>
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/publications.md' | relative_url }}">Publications</a></li>
-      <li><a href="{{ '/cv.md' | relative_url }}">Curriculum Vitae</a></li>
-    </ul>
-  </nav>  
+<header>
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  
+    <nav style="background-color: #333; padding: 10px; display: flex; justify-content: space-between; align-items: center; font-family: Arial, sans-serif;">
+      <!-- Navigation Links -->
+      <div>
+        <a href="{{ '/' | relative_url }}" style="color: #ffffff; margin-right: 20px; text-decoration: none; font-weight: bold;">Home</a>
+        <a href="{{ '/cv' | relative_url }}" style="color: #ffffff; margin-right: 20px; text-decoration: none;">CV</a>
+        <a href="{{ '/publications' | relative_url }}" style="color: #ffffff; text-decoration: none;">Publications</a>
+      </div>
+  
+      <!-- Social & Academic Links -->
+      <div>
+        <a href="https://github.com/junaidaliop" target="_blank" style="color: #ffffff; margin-right: 15px; text-decoration: none;">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=9VTFIJcAAAAJ" target="_blank" style="color: #ffffff; margin-right: 15px; text-decoration: none;">
+          <i class="fas fa-graduation-cap"></i> Google Scholar
+        </a>
+        <a href="https://orcid.org/0009-0008-9249-9983" target="_blank" style="color: #ffffff; text-decoration: none;">
+          <i class="fas fa-id-badge"></i> ORCID
+        </a>
+      </div>
+    </nav>
+  </header>
+  
