@@ -2,15 +2,17 @@
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: "Arial", sans-serif;
+    font-family: "Fira Code", "Courier New", monospace;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    line-height: 1.8;
   }
   
   /* Links styling */
   a {
     color: #bb86fc;
     text-decoration: none;
+    transition: color 0.3s ease;
   }
   
   a:hover {
@@ -18,7 +20,19 @@ body {
   }
   
   /* Headings styling */
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  h4, h5, h6 {
     color: #ffffff;
   }
   
@@ -32,3 +46,10 @@ body {
     line-height: 1.6;
   }
   
+  /* Section separator */
+  hr {
+    border: 0;
+    height: 1px;
+    background: #444;
+    margin: 40px 0;
+  }  
