@@ -34,6 +34,5 @@ Feel free to explore my work and research:
 
 ---
 
-## Get in Touch
 
-If you'd like to get in touch, please reach out via [muhammadjunaidaliasifraja@gmail.com](mailto:muhammadjunaidaliasifraja@gmail.com).
+For research collaborations email me at[muhammadjunaidaliasifraja@gmail.com](mailto:muhammadjunaidaliasifraja@gmail.com).
