@@ -10,6 +10,7 @@ body {
 .bold-pink {
     color: #bb86fc;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 a {
