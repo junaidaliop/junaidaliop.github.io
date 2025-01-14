@@ -19,13 +19,12 @@ Welcome to my personal website, where you can explore my professional background
 
 I am deeply interested in advancing machine learning and scientific computing. My research focuses on:
 
-<ul class="special-list">
-  <li>Deep Learning Optimization Algorithms</li>
-  <li>Physics-Informed Neural Networks</li>
-  <li>Medical Image Analysis</li>
-  <li>Recommender Systems</li>
-  <li>Computational Neuroscience</li>
-</ul>
+- Deep Learning Optimization Algorithms
+- Physics-Informed Neural Networks
+- Medical Image Analysis
+- Recommender Systems
+- Computational Neuroscience
+{:.special-list}
 
 ---
 
