@@ -1,14 +1,17 @@
-/* Global dark mode styles */
 body {
     background-color: #121212;
-    color: #f5f5f5;  /* Brighter text color */
+    color: #e0e0e0;  /* Brighter text color */
     font-family: "Fira Code", "Courier New", monospace;
     margin: 0;
     padding: 20px;
     line-height: 1.8;
 }
 
-/* Links styling */
+.bold-pink {
+    color: #bb86fc;
+    font-weight: bold;
+}
+
 a {
     color: #bb86fc;
     text-decoration: none;
@@ -20,12 +23,23 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Headings styling */
+
 h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }
 
-/* Header and footer styling */
+
+ul, ol {
+    padding-left: 20px;
+    color: #e0e0e0;
+}
+
+
+ul.special-list li {
+    color: #bb86fc;
+    font-weight: bold;
+}
+
 header, footer {
     background-color: #121212;
     padding: 10px;
@@ -33,7 +47,6 @@ header, footer {
     color: #bbbbbb;
 }
 
-/* Navigation bar links */
 nav a {
     color: #ffffff;
     margin-right: 20px;
@@ -45,17 +58,6 @@ nav a:hover {
     color: #bb86fc;
 }
 
-/* Publications list styling */
-ul, ol {
-    padding-left: 20px;
-}
-
-li {
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-/* Section separator */
 hr {
     border: 0;
     height: 1px;
@@ -63,7 +65,6 @@ hr {
     margin: 40px 0;
 }
 
-/* Profile picture styling */
 img {
     border-radius: 50%;
     border: 2px solid #bb86fc;
@@ -74,9 +75,6 @@ img:hover {
     transform: scale(1.05);
 }
 
-/* Animations */
-
-/* Fade-in animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -88,12 +86,10 @@ img:hover {
     }
 }
 
-/* Apply animation to content */
 h1, h2, p, ul, img, nav a {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* Smooth hover effect for buttons and links */
 a:hover {
     color: #f5f5f5;
     text-decoration: underline;

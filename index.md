@@ -15,19 +15,21 @@ Welcome to my personal website, where you can explore my professional background
 
 ---
 
-## 🔬 Research Interests
+## Research Interests
 
 I am deeply interested in advancing machine learning and scientific computing. My research focuses on:
 
-- Deep Learning Optimization Algorithms
-- Physics-Informed Neural Networks
-- Medical Image Analysis
-- Recommender Systems
-- Computational Neuroscience
+<ul class="special-list">
+  <li>Deep Learning Optimization Algorithms</li>
+  <li>Physics-Informed Neural Networks</li>
+  <li>Medical Image Analysis</li>
+  <li>Recommender Systems</li>
+  <li>Computational Neuroscience</li>
+</ul>
 
 ---
 
-## 💡 Looking for Research Collaboration?
+## Looking for Research Collaboration?
 
 I’m always excited to collaborate on interesting research projects!  
 Feel free to reach out to me via email: [**muhammadjunaidaliasifraja@gmail.com**](mailto:muhammadjunaidaliasifraja@gmail.com)
