@@ -3,3 +3,19 @@ description: "Personal Website and Portfolio"
 theme: minima
 baseurl: ""
 url: "https://junaidaliop.github.io"
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-gist
+
+include: 
+  - assets
+
+social:
+  github: junaidaliop
