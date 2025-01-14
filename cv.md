@@ -39,7 +39,7 @@ I am currently leading a research team comprising Masters and PhD students. Some
 
 - [**Adil Sultan**](https://scholar.google.com/citations?user=f-so7jsAAAAJ&hl=en)  
 - [**Shahzaib Ahmed Hassan**](https://scholar.google.com/citations?user=1xD1zTQAAAAJ&hl=en)  
-- **Syed Zoraiz Ali Shehrazi**
+- <span class="bold-pink">Syed Zoraiz Ali Shehrazi</span>
 
 ---
 
