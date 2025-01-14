@@ -10,7 +10,7 @@ Here’s a link to my CV:
 
 ---
 
-## 🎓 Education
+## Education
 
 - **Masters in Computer Science and Information Engineering**  
   *National Yunlin University of Science and Technology* (Feb 2024 – Current)
@@ -20,7 +20,7 @@ Here’s a link to my CV:
 
 ---
 
-## 🔬 Research Collaborators
+## Research Collaborators
 
 I have had the privilege to collaborate with distinguished professors and researchers, including:
 
@@ -33,7 +33,7 @@ I have had the privilege to collaborate with distinguished professors and resear
 
 ---
 
-## 👥 Research Team Members
+## Research Team Members
 
 I am currently leading a research team comprising Masters and PhD students. Some of my brilliant collaborators include:
 
@@ -43,7 +43,7 @@ I am currently leading a research team comprising Masters and PhD students. Some
 
 ---
 
-## 📫 Contact
+## Contact
 
 For collaborations or further information, feel free to reach out to me at:  
 ✉️ [**muhammadjunaidaliasifraja@gmail.com**](mailto:muhammadjunaidaliasifraja@gmail.com)
