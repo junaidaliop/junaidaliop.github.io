@@ -3,37 +3,34 @@ layout: default
 title: "Muhammad Junaid Ali Asif Raja"
 ---
 
-#  Welcome to My Personal Website
+# Hey there, I'm Muhammad Junaid Ali Asif Raja!
 
-Hi! I'm **Muhammad Junaid Ali Asif Raja**, a graduate scholar and AI researcher. This website serves as my personal portfolio, where you can learn more about my professional background, explore my publications, and access my CV.
-
----
-
-## About Me
-
-I am very keen on machine learning and scentific computing. Some of my areas of interest include:
-
-- Deep Learning Optimization Algorithms
-- Physics-Informed Neural Networks
-- Medical Image Analysis
-- Recommender Systems
-- Computational Neuroscience
-
-Feel free to explore my work and research:
-
-- <i class="fab fa-github"></i> **GitHub**: [github.com/junaidaliop](https://github.com/junaidaliop)
-- <i class="fas fa-graduation-cap"></i> **Google Scholar**: [My Profile](https://scholar.google.com/citations?view_op=list_works&hl=en&user=9VTFIJcAAAAJ)
-- <i class="fas fa-id-badge"></i> **ORCID**: [0009-0008-9249-9983](https://orcid.org/0009-0008-9249-9983)
+Hi! I go by Ali, a passionate **AI researcher** and **graduate scholar**.  
+I specialize in **machine learning**, **scientific computing**, and **deep learning optimization**.  
+Welcome to my personal website, where you can explore my professional background, research interests, and publications, or get in touch for collaborations!
 
 ---
 
-## 🛠️ Explore My Work
-
-- 📄 [Go to my CV](/cv)
-- 📚 [Check out my Publications](/publications)
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
+  <!-- Add your photo here -->
+  <img src="assets/profile.jpg" alt="Muhammad Junaid Ali Asif Raja" style="width: 150px; height: 150px; border-radius: 50%; border: 2px solid #bb86fc;">
+  
+  <div>
+    <h2 style="margin: 0;">🔬 Research Interests</h2>
+    <p>I am deeply interested in advancing machine learning and scientific computing. My research focuses on:</p>
+    <ul>
+      <li>Deep Learning Optimization Algorithms</li>
+      <li>Physics-Informed Neural Networks</li>
+      <li>Medical Image Analysis</li>
+      <li>Recommender Systems</li>
+      <li>Computational Neuroscience</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
-## 🤝 Get in Touch
+## Looking for Research Collaboration?
 
-For research collaborations, email me at [muhammadjunaidaliasifraja@gmail.com](mailto:muhammadjunaidaliasifraja@gmail.com).
+I’m always excited to collaborate on interesting research projects!  
+Feel free to reach out to me via email: [**muhammadjunaidaliasifraja@gmail.com**](mailto:muhammadjunaidaliasifraja@gmail.com)
