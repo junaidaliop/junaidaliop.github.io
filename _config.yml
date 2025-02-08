@@ -1,5 +1,5 @@
 title: "Muhammad Junaid Ali Asif Raja"
-description: "Personal Website and Portfolio"
+description: "Research Portfolio"
 theme: minima
 baseurl: ""
 url: "https://junaidaliop.github.io"
@@ -14,7 +14,7 @@ plugins:
   - jekyll-archives
   - jekyll-gist
 
-include: 
+include:
   - assets
 
 social:
