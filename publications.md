@@ -7,7 +7,7 @@ title: "Publications"
 
 1. **[A Hybrid Neural-Computational Paradigm for Complex Firing Patterns and Excitability Transitions in Fractional Hindmarsh-Rose Neuronal Models](https://doi.org/10.1016/j.chaos.2025.116149)**  
    **Muhammad Junaid Ali Asif Raja**, Shahzaib Ahmed Hassan, Chuan-Yu Chang, Chi-Min Shu, Adiqa Kausar Kiani, Muhammad Shoaib, Muhammad Asif Zahoor Raja.
-   _Chaos, Solitons & Fractals_, 2025.
+   _Chaos, Solitons & Fractals_, 2025.  
    [DOI: 10.1016/j.chaos.2025.116149](https://doi.org/10.1016/j.chaos.2025.116149)
 
 2. **[A Novel Fractional Parkinson's Disease Onset Model Involving α-Syn Neuronal Transportation and Aggregation: A Treatise on Machine Predictive Networks](https://doi.org/10.1016/j.chaos.2025.116269)**  
