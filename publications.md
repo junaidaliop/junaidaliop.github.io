@@ -60,7 +60,7 @@ title: "Publications"
     _Chaos, Solitons & Fractals_, 2024.  
     [DOI: 10.1016/j.chaos.2024.115852](https://doi.org/10.1016/j.chaos.2024.115852)
 
-12. **[Fractional Gradient Optimized Explainable Convolutional Neural Network for Alzheimer's Disease Diagnosis](https://doi.org/10.1016/j.heliyon.2024.e12892)**
+12. **[Fractional Gradient Optimized Explainable Convolutional Neural Network for Alzheimer's Disease Diagnosis](https://doi.org/10.1016/j.heliyon.2024.e12892)**  
     Zeshan Aslam Khan, Muhammad Waqar, Naveed Ishtiaq Chaudhary, **Muhammad Junaid Ali Asif Raja**, Saadia Khan, Farrukh Aslam Khan, Iqra Ishtiaq Chaudhary, Muhammad Asif Zahoor Raja.  
     _Heliyon_, 2024.  
     [DOI: 10.1016/j.heliyon.2024.e12892](https://doi.org/10.1016/j.heliyon.2024.e12892)
