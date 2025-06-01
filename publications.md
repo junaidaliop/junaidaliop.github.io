@@ -9,27 +9,27 @@ title: "Publications"
    **Muhammad Junaid Ali Asif Raja**, Shahzaib Ahmed Hassan, Chuan-Yu Chang, Chi-Min Shu, Adiqa Kausar Kiani, Muhammad Shoaib, Muhammad Asif Zahoor Raja.  
    *Chaos, Solitons & Fractals*, 2025.  
 
-2. **[Design of deep learning networks for nonlinear delay differential system for Stuxnet virus spread in an air gapped critical environment](https://doi.org/10.1016/j.asoc.2025.113091)**  
+2. **[Design of Deep Learning Networks for Nonlinear Delay Differential System for Stuxnet Virus Spread in an Air-Gapped Critical Environment](https://doi.org/10.1016/j.asoc.2025.113091)**  
    **Muhammad Junaid Ali Asif Raja**, Zaheer Masood, Ijaz Hussain, Aneela Zameer, Muhammad Asif Zahoor Raja.  
    *Applied Soft Computing*, 2025.  
 
-3. **[Bayesian-regularized cascaded neural networks for fractional asymmetric carbon-thermal nutrient-plankton dynamics under global warming and climatic perturbations](https://doi.org/10.1016/j.engappai.2025.110739)**  
-   **Muhammad Junaid Ali Asif Raja** Adil Sultan, Chuan-Yu Chang, Chi-Min Shu, Adiqa Kausar Kiani, Muhammad Asif Zahoor Raja.  
+3. **[Bayesian-Regularized Cascaded Neural Networks for Fractional Asymmetric Carbon-Thermal Nutrient–Plankton Dynamics Under Global Warming and Climatic Perturbations](https://doi.org/10.1016/j.engappai.2025.110739)**  
+   **Muhammad Junaid Ali Asif Raja**, Adil Sultan, Chuan-Yu Chang, Chi-Min Shu, Adiqa Kausar Kiani, Muhammad Asif Zahoor Raja.  
    *Engineering Applications of Artificial Intelligence*, 2025.  
 
-4. **[Design of a fractional-order environmental toxin-plankton system in aquatic ecosystems: A novel machine predictive expedition with nonlinear autoregressive neuroarchitectures](https://doi.org/10.1016/j.watres.2025.123640)**  
-   **Muhammad Junaid Ali Asif Raja** Adil Sultan, Chuan-Yu Chang, Chi-Min Shu, Muhammad Shoaib, Adiqa Kausar Kiani, Muhammad Asif Zahoor Raja.  
+4. **[Design of a Fractional-Order Environmental Toxin–Plankton System in Aquatic Ecosystems: A Novel Machine Predictive Expedition with Nonlinear Autoregressive Neuroarchitectures](https://doi.org/10.1016/j.watres.2025.123640)**  
+   **Muhammad Junaid Ali Asif Raja**, Adil Sultan, Chuan-Yu Chang, Chi-Min Shu, Muhammad Shoaib, Adiqa Kausar Kiani, Muhammad Asif Zahoor Raja.  
    *Water Research*, 2025.  
 
 5. **[Novel Intelligent Exogenous Neuro-Architecture–Driven Machine Learning Approach for Nonlinear Fractional Breast Cancer Risk System](https://doi.org/10.1016/j.cnsns.2025.108955)**  
    Afshan Fida, Muhammad Asif Zahoor Raja, Chuan-Yu Chang, **Muhammad Junaid Ali Asif Raja**, Zeshan Aslam Khan, Muhammad Shoaib.  
    *Communications in Nonlinear Science and Numerical Simulation*, 2025.  
 
-6. **[Supervised autoregressive eXogenous Networks with Fractional Grünwald–Letnikov finite differences: Tumor Evolution and Immune Responses under Therapeutic Influence fractals model](https://doi.org/10.1016/j.bspc.2025.107871)**  
+6. **[Supervised Autoregressive eXogenous Networks with Fractional Grünwald–Letnikov Finite Differences: Tumor Evolution and Immune Responses Under Therapeutic Influence Fractals Model](https://doi.org/10.1016/j.bspc.2025.107871)**  
    Hassan Raza, **Muhammad Junaid Ali Asif Raja**, Rikza Mubeen, Zaheer Masood, Muhammad Asif Zahoor Raja.  
    *Biomedical Signal Processing and Control*, 2025.  
 
-7. **[Prognostication of zooplankton-driven cholera pathoepidemiological Dynamics: Novel Bayesian-regularized deep NARX neuroarchitecture](https://doi.org/10.1016/j.compbiomed.2025.110197)**  
+7. **[Prognostication of Zooplankton-Driven Cholera Patho-Epidemiological Dynamics: Novel Bayesian-Regularized Deep NARX Neuroarchitecture](https://doi.org/10.1016/j.compbiomed.2025.110197)**  
    **Muhammad Junaid Ali Asif Raja**, Adil Sultan, Chuan-Yu Chang, Chi-Min Shu, Adiqa Kausar Kiani, Muhammad Shoaib, Muhammad Asif Zahoor Raja.  
    *Computers in Biology and Medicine*, 2025.  
 
@@ -41,11 +41,11 @@ title: "Publications"
    Kiran Asma, Muhammad Asif Zahoor Raja, Chuan-Yu Chang, **Muhammad Junaid Ali Asif Raja**, Muhammad Shoaib.  
    *Chaos, Solitons & Fractals*, 2025.  
 
-10. **[Design of Intelligent Bayesian Regularized Deep Cascaded NARX Neurostructure for Predictive Analysis of FitzHugh-Nagumo Bioelectrical Model in Neuronal Cell Membrane](https://doi.org/10.1016/j.bspc.2024.107192)**  
+10. **[Design of Intelligent Bayesian-Regularized Deep Cascaded NARX Neurostructure for Predictive Analysis of FitzHugh-Nagumo Bioelectrical Model in Neuronal Cell Membrane](https://doi.org/10.1016/j.bspc.2024.107192)**  
     **Muhammad Junaid Ali Asif Raja**, Shahzaib Ahmed Hassan, Chuan-Yu Chang, Chi-Min Shu, Adiqa Kausar Kiani, Muhammad Shoaib, Muhammad Asif Zahoor Raja.  
     *Biomedical Signal Processing and Control*, 2025.  
 
-11. **[Predictive Modeling of Fractional Plankton-Assisted Cholera Propagation Dynamics Using Bayesian Regularized Deep Cascaded Exogenous Neural Networks](https://doi.org/10.1016/j.psep.2025.106819)**  
+11. **[Predictive Modeling of Fractional Plankton-Assisted Cholera Propagation Dynamics Using Bayesian-Regularized Deep Cascaded Exogenous Neural Networks](https://doi.org/10.1016/j.psep.2025.106819)**  
     Adil Sultan, **Muhammad Junaid Ali Asif Raja**, Chuan-Yu Chang, Chi-Min Shu, Adiqa Kausar Kiani, Muhammad Asif Zahoor Raja.  
     *Process Safety and Environmental Protection*, 2025.  
 
@@ -61,7 +61,7 @@ title: "Publications"
     Hassan Raza, **Muhammad Junaid Ali Asif Raja**, Rikza Mubeen, Zaheer Masood, Muhammad Asif Zahoor Raja.  
     *Computational Biology and Chemistry*, 2025.  
 
-15. **[Intelligent Predictive Networks for Nonlinear Oxygen-Phytoplankton-Zooplankton Coupled Marine Ecosystems Under Environmental and Climatic Disruptions](https://doi.org/10.1016/j.psep.2024.11.092)**  
+15. **[Intelligent Predictive Networks for Nonlinear Oxygen–Phytoplankton–Zooplankton Coupled Marine Ecosystems Under Environmental and Climatic Disruptions](https://doi.org/10.1016/j.psep.2024.110092)**  
     Adil Sultan, **Muhammad Junaid Ali Asif Raja**, Chuan-Yu Chang, Chi-Min Shu, Muhammad Shoaib, Adiqa Kausar Kiani, Muhammad Asif Zahoor Raja.  
     *Process Safety and Environmental Protection*, 2025.  
 
@@ -69,11 +69,11 @@ title: "Publications"
     **Muhammad Junaid Ali Asif Raja**, Shahzaib Ahmed Hassan, Chuan-Yu Chang, Hassan Raza, Rikza Mubeen, Zaheer Masood, Muhammad Asif Zahoor Raja.  
     *Computers in Biology and Medicine*, 2025.  
 
-17. **[Nonlinear Chaotic Lorenz-Lü-Chen Fractional Order Dynamics: A Novel Machine Learning Expedition with Deep Autoregressive Exogenous Neural Networks](https://doi.org/10.1016/j.chaos.2024.115852)**  
+17. **[Nonlinear Chaotic Lorenz-Lü-Chen Fractional-Order Dynamics: A Novel Machine Learning Expedition with Deep Autoregressive Exogenous Neural Networks](https://doi.org/10.1016/j.chaos.2024.115852)**  
     Shahzaib Ahmed Hassan, **Muhammad Junaid Ali Asif Raja**, Chuan-Yu Chang, Chi-Min Shu, Muhammad Shoaib, Adiqa Kausar Kiani, Muhammad Asif Zahoor Raja.  
     *Chaos, Solitons & Fractals*, 2024.  
 
-18. **[Fractional Gradient Optimized Explainable Convolutional Neural Network for Alzheimer's Disease Diagnosis](https://doi.org/10.1016/j.heliyon.2024.e12892)**  
+18. **[Fractional Gradient-Optimized Explainable Convolutional Neural Network for Alzheimer's Disease Diagnosis](https://doi.org/10.1016/j.heliyon.2024.e12892)**  
     Zeshan Aslam Khan, Muhammad Waqar, Naveed Ishtiaq Chaudhary, **Muhammad Junaid Ali Asif Raja**, Saadia Khan, Farrukh Aslam Khan, Iqra Ishtiaq Chaudhary, Muhammad Asif Zahoor Raja.  
     *Heliyon*, 2024.  
 
