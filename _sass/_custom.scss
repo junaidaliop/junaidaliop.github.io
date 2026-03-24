@@ -1,0 +1,498 @@
+/*******************************************************************************
+ * Custom styles for Ali's portfolio
+ * Purple branding, animations, hover effects, and quirky features
+ ******************************************************************************/
+
+@use "variables" as v;
+
+/* ============================================================================
+ * Fade-in animation (preserved from original site)
+ * ========================================================================= */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.about .profile {
+  animation: fadeInRight 0.8s ease-in-out;
+}
+
+.about .clearfix > p,
+.about .clearfix > h2,
+.about .clearfix > ul {
+  animation: fadeInLeft 0.8s ease-in-out;
+}
+
+.news {
+  animation: fadeIn 0.8s ease-in-out 0.2s both;
+}
+
+.publications {
+  animation: fadeIn 0.8s ease-in-out 0.3s both;
+}
+
+/* ============================================================================
+ * Profile image purple border (from original)
+ * ========================================================================= */
+
+.profile .rounded-circle,
+.profile img {
+  border: 3px solid var(--global-theme-color) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(187, 134, 252, 0.3);
+}
+
+/* ============================================================================
+ * Publication card hover effects
+ * ========================================================================= */
+
+.bibliography li {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.bibliography li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(187, 134, 252, 0.12);
+}
+
+/* Publication preview images */
+.bibliography .preview img {
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.bibliography .preview img:hover {
+  transform: scale(1.08);
+}
+
+/* Journal abbreviation badges */
+.bibliography .abbr .badge {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+/* ============================================================================
+ * Link transitions
+ * ========================================================================= */
+
+a {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* ============================================================================
+ * Card and project hover effects
+ * ========================================================================= */
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(187, 134, 252, 0.15);
+}
+
+/* ============================================================================
+ * Navbar glow on scroll
+ * ========================================================================= */
+
+#navbar.navbar-expand-sm.fixed-top {
+  transition: box-shadow 0.3s ease;
+}
+
+#navbar.navbar-expand-sm.fixed-top.scrolled {
+  box-shadow: 0 2px 20px rgba(187, 134, 252, 0.1);
+}
+
+/* ============================================================================
+ * Custom scrollbar (dark theme)
+ * ========================================================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bb86fc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4b0ff;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #bb86fc #1a1a1a;
+}
+
+/* ============================================================================
+ * Text selection color
+ * ========================================================================= */
+
+::selection {
+  background: rgba(187, 134, 252, 0.3);
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: rgba(187, 134, 252, 0.3);
+  color: #ffffff;
+}
+
+/* ============================================================================
+ * Smooth scroll
+ * ========================================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================================================
+ * Back-to-top button purple styling
+ * ========================================================================= */
+
+html[data-theme="dark"] #back-to-top {
+  background: rgba(187, 134, 252, 0.8);
+  color: #121212;
+}
+
+html[data-theme="dark"] #back-to-top:hover {
+  background: #bb86fc;
+}
+
+/* ============================================================================
+ * News section styling
+ * ========================================================================= */
+
+.news .table td {
+  transition: background-color 0.2s ease;
+}
+
+.news .table tr:hover td {
+  background-color: rgba(187, 134, 252, 0.05);
+}
+
+/* ============================================================================
+ * Footer styling for dark mode
+ * ========================================================================= */
+
+html[data-theme="dark"] footer.fixed-bottom {
+  border-top: 1px solid #333;
+}
+
+/* ============================================================================
+ * Dark mode text visibility fixes
+ * ========================================================================= */
+
+html[data-theme="dark"] {
+  /* Ensure all body text is bright enough */
+  body {
+    font-size: 1.05rem;
+  }
+
+  /* Fix subtitle / secondary text that uses text-color-light */
+  .post-description,
+  .post-meta,
+  .header-bar .post-description,
+  p.desc,
+  .description {
+    color: #c0c0c0 !important;
+  }
+
+  /* Fix about page subtitle */
+  .about .post-header .post-description {
+    color: #d0d0d0 !important;
+    font-size: 1.05rem;
+  }
+
+  /* Fix profile more-info text */
+  .profile .more-info p,
+  .profile .address p {
+    color: #c8c8c8 !important;
+  }
+
+  /* Fix nav links */
+  .navbar .nav-link {
+    color: #e0e0e0 !important;
+    font-size: 1rem;
+  }
+
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #bb86fc !important;
+  }
+
+  /* Fix footer text */
+  footer .container,
+  footer .container p,
+  footer .container a {
+    color: #c8c8c8;
+  }
+
+  footer .container a:hover {
+    color: #bb86fc;
+  }
+
+  /* Fix the news date text */
+  .news .table td.date {
+    color: #bb86fc;
+    font-weight: 500;
+  }
+
+  .news .table td {
+    color: #d8d8d8;
+    font-size: 1rem;
+    border-bottom-color: #2a2a2a;
+  }
+
+  /* Fix publication author text */
+  .bibliography .author {
+    color: #c8c8c8;
+  }
+
+  /* Fix publication year headers */
+  .bibliography .year {
+    color: #ffffff;
+    font-size: 1.3rem;
+  }
+
+  /* Fix CV section headers */
+  .cv .card-header {
+    color: #ffffff;
+  }
+
+  .cv .card-body {
+    color: #d8d8d8;
+  }
+
+  /* Fix search input */
+  #search-input {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #3a3a3a;
+  }
+
+  #search-input::placeholder {
+    color: #888;
+  }
+
+  /* Fix table borders in dark mode */
+  table td,
+  table th {
+    border-color: #333 !important;
+  }
+
+  /* Fix code blocks */
+  code {
+    background-color: #2a2a2a;
+    color: #e0b0ff;
+  }
+
+  /* Navbar title/brand */
+  .navbar-brand {
+    color: #ffffff !important;
+    font-weight: 700;
+  }
+}
+
+/* ============================================================================
+ * General font size improvements
+ * ========================================================================= */
+
+.about .clearfix > p {
+  font-size: 1.1rem;
+  line-height: 1.85;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.about ul li {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+/* Better spacing for selected papers section */
+.selected-papers h2 {
+  font-size: 1.5rem;
+}
+
+/* Publication page readability */
+.bibliography li .title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.bibliography li .author {
+  font-size: 0.95rem;
+}
+
+/* CV page */
+.cv h2 {
+  font-size: 1.4rem;
+}
+
+/* ============================================================================
+ * Color accents and visual polish
+ * ========================================================================= */
+
+/* Purple accent underline on about page section headings */
+.about h2 {
+  padding-bottom: 6px;
+  border-bottom: 2px solid rgba(187, 134, 252, 0.3);
+  display: inline-block;
+}
+
+/* News section left border accent */
+.news {
+  border-left: 3px solid rgba(187, 134, 252, 0.4);
+  padding-left: 15px;
+}
+
+/* Scholar metrics card on publications page */
+.scholar-card {
+  margin-bottom: 30px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(187, 134, 252, 0.2);
+}
+
+.scholar-card-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 24px 20px;
+  background: linear-gradient(135deg, rgba(187, 134, 252, 0.08) 0%, rgba(187, 134, 252, 0.02) 100%);
+  flex-wrap: wrap;
+}
+
+.scholar-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 28px;
+  min-width: 80px;
+}
+
+.scholar-number {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--global-theme-color);
+  line-height: 1.2;
+}
+
+.scholar-label {
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+.scholar-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(187, 134, 252, 0.2);
+}
+
+.scholar-source {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+  padding: 8px;
+  border-top: 1px solid rgba(187, 134, 252, 0.1);
+}
+
+.scholar-source a {
+  color: var(--global-theme-color);
+}
+
+@media (max-width: 576px) {
+  .scholar-stat {
+    padding: 8px 16px;
+  }
+  .scholar-number {
+    font-size: 1.4rem;
+  }
+  .scholar-divider {
+    display: none;
+  }
+}
+
+/* Purple dot markers on about page lists */
+.about ul li::marker {
+  color: #bb86fc;
+}
+
+/* Selected papers section heading accent */
+.selected-papers h2,
+h2.publications {
+  border-bottom: 2px solid rgba(187, 134, 252, 0.25);
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+/* Subtle purple tint on publication year dividers */
+.bibliography .year {
+  border-bottom: 1px solid rgba(187, 134, 252, 0.2);
+  padding-bottom: 4px;
+}
+
+/* Profile card subtle glow */
+html[data-theme="dark"] .profile {
+  position: relative;
+}
+
+html[data-theme="dark"] .profile img {
+  box-shadow: 0 0 20px rgba(187, 134, 252, 0.15);
+}
