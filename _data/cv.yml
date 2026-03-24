@@ -1,0 +1,139 @@
+cv:
+  name: Muhammad Junaid Ali Asif Raja
+  label: Machine Learning Researcher
+  email: muhammadjunaidaliasifraja@gmail.com
+  location: Yunlin, Taiwan
+  image: prof_pic.jpg
+  summary: Machine Learning Researcher designing intelligent neural surrogates for complex dynamical systems. 27 publications across 23 WoS Core Collection journals. Phi Tau Phi Scholastic Honor Society member (top 2% graduate masters).
+
+  social_networks:
+    - network: GitHub
+      username: junaidaliop
+    - network: Google Scholar
+      username: 9VTFIJcAAAAJ
+    - network: ORCID
+      username: 0009-0008-9249-9983
+
+  sections:
+    Education:
+      - institution: National Yunlin University of Science and Technology
+        location: Yunlin, Taiwan
+        url: https://www.yuntech.edu.tw/
+        area: Computer Science and Information Engineering
+        studyType: Direct PhD (Masters to PhD)
+        start_date: 2024-02
+        end_date: Present
+        highlights:
+          - "Selected for Direct PhD program (Sept 2025)"
+          - "Supervisor: Prof. Chuan-Yu Chang"
+          - "Research: Machine Learning, Scientific Computing, Deep Learning Optimization"
+          - "27 WoS-indexed publications, h-index 7, 109+ citations"
+
+      - institution: National University of Sciences and Technology (NUST)
+        location: Islamabad, Pakistan
+        url: https://nust.edu.pk/
+        area: Electrical Engineering (Embedded Systems and Artificial Intelligence)
+        studyType: Bachelors
+        start_date: 2019-09
+        end_date: 2023-06
+        highlights:
+          - "School of Electrical Engineering and Computer Science (SEECS)"
+          - "Specialization in Embedded AI"
+          - "FYP: 3D Point Clouds on Embedded Platforms -- published as <a href='https://arxiv.org/abs/2512.22139' target='_blank'>HLS4PC</a> (SAMOS 2025)"
+
+    Awards:
+      - title: Phi Tau Phi Scholastic Honor Society Member
+        date: 2025-06-15
+        awarder: Phi Tau Phi Scholastic Honor Society of the Republic of China
+        summary: Awarded membership for being in the top 2% of graduate masters students, recognizing outstanding scholastic achievement and moral conduct.
+
+      - title: Direct PhD Selection
+        date: 2025-09-01
+        awarder: National Yunlin University of Science and Technology
+        summary: Selected for Direct PhD program (Masters to PhD transition) based on research output and academic performance.
+
+    Research Collaborators:
+      - name: Prof. Muhammad Asif Zahoor Raja
+        icon: fa-solid fa-user-tie
+        reference: >
+          Primary research collaborator and mentor. Distinguished professor specializing in stochastic computing, neural networks, and computational intelligence.
+          <a href="https://scholar.google.com/citations?user=g0-jYpcAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Prof. Chuan-Yu Chang
+        icon: fa-solid fa-user-tie
+        reference: >
+          PhD supervisor at National Yunlin University of Science and Technology. Expert in computer science and information engineering.
+          <a href="https://www.yuntech.edu.tw/" target="_blank">YunTech</a>
+
+      - name: Prof. Adiqa Kausar Kiani
+        icon: fa-solid fa-user-tie
+        reference: >
+          Research collaborator at YunTech Future Technology Research Center. Specializes in mathematical modeling and computational biology.
+          <a href="https://scholar.google.com/citations?user=0UX15N0AAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Prof. Chi-Min Shu
+        icon: fa-solid fa-user-tie
+        reference: >
+          Research collaborator at YunTech Department of Safety, Health and Environmental Engineering. Expert in process safety and thermal hazards.
+
+      - name: Prof. Osman Hasan
+        icon: fa-solid fa-user-tie
+        reference: >
+          Pro-Rector (Academics) at NUST. Professor at SEECS specializing in formal methods, theorem proving, and hardware security. Tamgh-e-Imtiaz recipient.
+          <a href="https://scholar.google.com.pk/citations?user=A30uGg8AAAAJ" target="_blank">Google Scholar</a> |
+          <a href="https://ohasan.seecs.nust.edu.pk/" target="_blank">NUST Profile</a>
+
+      - name: Dr. Zeshan Aslam Khan
+        icon: fa-solid fa-user-graduate
+        reference: >
+          Research collaborator at YunTech International Graduate School of AI. Focuses on medical image analysis and explainable AI.
+          <a href="https://scholar.google.com/citations?user=RcKNS4UAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Dr. Naveed Ishtiaq Chaudhary
+        icon: fa-solid fa-user-graduate
+        reference: >
+          Research collaborator at YunTech Future Technology Research Center. Expert in system identification and fractional-order systems.
+          <a href="https://scholar.google.com.pk/citations?user=okVMi4UAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Dr. Zaheer Masood
+        icon: fa-solid fa-user-graduate
+        reference: >
+          Research collaborator at Capital University of Science and Technology. Works on deep learning and cybersecurity applications.
+          <a href="https://scholar.google.com/citations?user=j9pWRmkAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Dr. Muhammad Shoaib
+        icon: fa-solid fa-user-graduate
+        reference: >
+          Research collaborator at Yuan Ze University AI Center. Specializes in AI-driven scientific computing.
+          <a href="https://scholar.google.com/citations?user=uWdWliwAAAAJ" target="_blank">Google Scholar</a>
+
+    Research Team:
+      - name: Adil Sultan
+        icon: fa-solid fa-users
+        reference: >
+          Masters student at YunTech. Working on plankton dynamics, cholera modeling, environmental systems, and marine ecosystems.
+          <a href="https://scholar.google.com/citations?user=f-so7jsAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Shahzaib Ahmed Hassan
+        icon: fa-solid fa-users
+        reference: >
+          NUST SEECS. Working on chaotic systems, neuronal models, cholesterol dynamics, and Rabinovich-Fabrikant attractors.
+          <a href="https://scholar.google.com/citations?user=1xD1zTQAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Shehzada Taimur
+        icon: fa-solid fa-users
+        reference: >
+          Working on memristive neuronal models and fractional-order systems. Paper accepted in Chaos, Solitons and Fractals.
+
+      - name: Syed Zoraiz Ali Shehrazi
+        icon: fa-solid fa-users
+        reference: >
+          NUST SEECS. Research in machine learning, NLP, and neural networks.
+          <a href="https://scholar.google.com/citations?user=HqQ_69EAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Sannan Zia Abbasi
+        icon: fa-solid fa-users
+        reference: >
+          NUST. AI developer working on language models and applied machine learning.
+          <a href="https://www.linkedin.com/in/sannan-abbasi-551193202/" target="_blank">LinkedIn</a>
+
