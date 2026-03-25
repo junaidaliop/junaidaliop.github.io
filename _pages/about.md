@@ -23,18 +23,22 @@ latest_posts:
   enabled: false
 ---
 
-I am **Muhammad Junaid Ali Asif Raja**, a Machine Learning Researcher at **National Yunlin University of Science and Technology**, Taiwan, working under the supervision of Prof. Chuan-Yu Chang. I am a Direct PhD student, having transitioned from the Masters program in September 2025, and hold a Bachelor's degree in Electrical Engineering from **NUST**, Islamabad.
+I am **Muhammad Junaid Ali Asif Raja**, a Machine Learning Researcher at the **National Yunlin University of Science and Technology (YunTech)**, Taiwan, advised by [Prof. Chuan-Yu Chang](https://mipl.yuntech.edu.tw/) and mentored by [Prof. Muhammad Asif Zahoor Raja](https://scholar.google.com/citations?user=g0-jYpcAAAAJ&hl=en).
 
-My research develops **intelligent neural surrogates** -- autoregressive neural emulators grounded in fractional calculus -- for modeling complex nonlinear dynamical systems. I design Bayesian-regularized NARX, cascaded feedforward, and deep recurrent architectures that serve as computationally efficient alternatives to traditional numerical solvers, achieving approximation errors in the range of 10<sup>-8</sup> to 10<sup>-15</sup> against reference solutions.
+I am a Direct PhD student, having transitioned from the Master's program in September 2025. I hold a Bachelor's degree in Electrical Engineering from [**SEECS, NUST**](https://seecs.nust.edu.pk/), Islamabad, where I was advised by [Prof. Faisal Shafait](https://scholar.google.com/citations?user=o9RCNZYAAAAJ&hl=en) and [Prof. Adnan Ul-Hasan](https://scholar.google.com/citations?user=U5-TXNAAAAAJ&hl=en), and affiliated with the [**TUKL-DLL Lab, NCAI**](https://dll.seecs.nust.edu.pk/).
 
-I have authored **27 publications** across 23 WoS Core Collection indexed journals, including *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate masters students).
+My research develops **intelligent neural surrogates**, primarily data-driven autoregressive neural emulators, for fractional-order nonlinear dynamical systems. My thesis focuses on designing intelligent neural surrogate networks for nonlinear dynamical reconstruction of neuronal systems. I also work on fractional-calculus-inspired deep learning optimization algorithms for accelerated large language model training.
+
+I have authored **27 publications** across 23 WoS Core Collection indexed journals, including *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate master's students).
 
 ## Research Interests
 
-My work spans the design of intelligent computing frameworks for fractional-order differential systems, with contributions in:
-
-- Neuronal dynamics and excitability modeling (Hindmarsh-Rose, FitzHugh-Nagumo, Rabinovich-Fabrikant)
-- Fractional ecological and epidemiological systems (plankton dynamics, cholera propagation, dengue fever)
-- Stuxnet and malware propagation in air-gapped and SCADA environments
-- Explainable medical image classification (malaria, Alzheimer's disease)
-- Hybrid nanofluidic thermal models in solar aircraft systems
+- Fractional-order accelerated gradient descent algorithms with applications in computer vision (biomedical) and recommender systems
+- Fractional-calculus-inspired quasi and pseudo-fractional optimization algorithms for large language model training
+- Physics-informed neural networks
+- Intelligent computing frameworks for fractional-order differential systems, including:
+  - Neuronal dynamics and chaotic attractors (Hindmarsh-Rose, FitzHugh-Nagumo, Rabinovich-Fabrikant)
+  - Ecological and environmental systems (plankton dynamics)
+  - Malware propagation in cyber-physical and SCADA systems
+  - Computational fluid dynamics
+- Edge and embedded AI

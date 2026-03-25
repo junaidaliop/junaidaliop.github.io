@@ -347,6 +347,7 @@ html[data-theme="dark"] {
 .about .clearfix > p {
   font-size: 1.1rem;
   line-height: 1.85;
+  text-align: justify;
 }
 
 .about h2 {
@@ -495,4 +496,57 @@ html[data-theme="dark"] .profile {
 
 html[data-theme="dark"] .profile img {
   box-shadow: 0 0 20px rgba(187, 134, 252, 0.15);
+}
+
+/* ============================================================================
+ * Purple/lavender text highlighting (comprehensive)
+ * ========================================================================= */
+
+/* Bold text gets purple across key sections */
+.about strong,
+.news strong,
+.cv strong {
+  color: var(--global-theme-color);
+}
+
+/* All headings: purple in light mode, lighter lavender in dark */
+h1, h2, h3 {
+  color: var(--global-theme-color);
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3 {
+  color: #d4b0ff;
+}
+
+/* Keep navbar brand white (override heading purple) */
+.navbar-brand {
+  color: var(--global-text-color) !important;
+}
+
+html[data-theme="dark"] .navbar-brand {
+  color: #ffffff !important;
+}
+
+/* About page subtitle links */
+.about .post-description a {
+  color: var(--global-theme-color);
+}
+
+/* Publication title hover */
+.bibliography li .title a:hover {
+  color: var(--global-theme-color) !important;
+}
+
+/* Scholar card numbers already purple via .scholar-number */
+
+/* CV card headers get lavender */
+html[data-theme="dark"] .cv .card-title {
+  color: #d4b0ff;
+}
+
+/* 404 page heading */
+html[data-theme="dark"] .post-title {
+  color: #d4b0ff;
 }

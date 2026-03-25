@@ -4,7 +4,7 @@ cv:
   email: muhammadjunaidaliasifraja@gmail.com
   location: Yunlin, Taiwan
   image: prof_pic.jpg
-  summary: Machine Learning Researcher designing intelligent neural surrogates for complex dynamical systems. 27 publications across 23 WoS Core Collection journals. Phi Tau Phi Scholastic Honor Society member (top 2% graduate masters).
+  summary: Machine Learning Researcher designing intelligent neural surrogates for complex dynamical systems. 27 publications across 23 WoS Core Collection journals. Phi Tau Phi Scholastic Honor Society member (top 2% graduate master's students).
 
   social_networks:
     - network: GitHub
@@ -38,102 +38,101 @@ cv:
         end_date: 2023-06
         highlights:
           - "School of Electrical Engineering and Computer Science (SEECS)"
-          - "Specialization in Embedded AI"
+          - "Advisors: Prof. Faisal Shafait, Prof. Adnan Ul-Hasan"
+          - "Affiliated with TUKL-DLL Lab, NCAI"
           - "FYP: 3D Point Clouds on Embedded Platforms -- published as <a href='https://arxiv.org/abs/2512.22139' target='_blank'>HLS4PC</a> (SAMOS 2025)"
 
     Awards:
       - title: Phi Tau Phi Scholastic Honor Society Member
         date: 2025-06-15
         awarder: Phi Tau Phi Scholastic Honor Society of the Republic of China
-        summary: Awarded membership for being in the top 2% of graduate masters students, recognizing outstanding scholastic achievement and moral conduct.
+        summary: Top 2% of graduate master's students. Recognizes outstanding scholastic achievement and moral conduct.
 
       - title: Direct PhD Selection
         date: 2025-09-01
         awarder: National Yunlin University of Science and Technology
-        summary: Selected for Direct PhD program (Masters to PhD transition) based on research output and academic performance.
+        summary: Selected for Direct PhD program based on research output and academic performance.
 
     Research Collaborators:
-      - name: Prof. Muhammad Asif Zahoor Raja
-        icon: fa-solid fa-user-tie
-        reference: >
-          Primary research collaborator and mentor. Distinguished professor specializing in stochastic computing, neural networks, and computational intelligence.
-          <a href="https://scholar.google.com/citations?user=g0-jYpcAAAAJ" target="_blank">Google Scholar</a>
-
       - name: Prof. Chuan-Yu Chang
         icon: fa-solid fa-user-tie
         reference: >
-          PhD supervisor at National Yunlin University of Science and Technology. Expert in computer science and information engineering.
-          <a href="https://www.yuntech.edu.tw/" target="_blank">YunTech</a>
+          PhD supervisor. National Yunlin University of Science and Technology.
+          <a href="https://mipl.yuntech.edu.tw/" target="_blank">MIPL Lab</a>
+
+      - name: Prof. Muhammad Asif Zahoor Raja
+        icon: fa-solid fa-user-tie
+        reference: >
+          Research mentor. National Yunlin University of Science and Technology.
+          <a href="https://scholar.google.com/citations?user=g0-jYpcAAAAJ" target="_blank">Google Scholar</a>
 
       - name: Prof. Adiqa Kausar Kiani
         icon: fa-solid fa-user-tie
         reference: >
-          Research collaborator at YunTech Future Technology Research Center. Specializes in mathematical modeling and computational biology.
+          Future Technology Research Center, YunTech.
           <a href="https://scholar.google.com/citations?user=0UX15N0AAAAJ" target="_blank">Google Scholar</a>
 
       - name: Prof. Chi-Min Shu
         icon: fa-solid fa-user-tie
         reference: >
-          Research collaborator at YunTech Department of Safety, Health and Environmental Engineering. Expert in process safety and thermal hazards.
-
-      - name: Prof. Osman Hasan
-        icon: fa-solid fa-user-tie
-        reference: >
-          Pro-Rector (Academics) at NUST. Professor at SEECS specializing in formal methods, theorem proving, and hardware security. Tamgh-e-Imtiaz recipient.
-          <a href="https://scholar.google.com.pk/citations?user=A30uGg8AAAAJ" target="_blank">Google Scholar</a> |
-          <a href="https://ohasan.seecs.nust.edu.pk/" target="_blank">NUST Profile</a>
-
-      - name: Dr. Zeshan Aslam Khan
-        icon: fa-solid fa-user-graduate
-        reference: >
-          Research collaborator at YunTech International Graduate School of AI. Focuses on medical image analysis and explainable AI.
-          <a href="https://scholar.google.com/citations?user=RcKNS4UAAAAJ" target="_blank">Google Scholar</a>
+          Department of Safety, Health and Environmental Engineering, YunTech.
 
       - name: Dr. Naveed Ishtiaq Chaudhary
         icon: fa-solid fa-user-graduate
         reference: >
-          Research collaborator at YunTech Future Technology Research Center. Expert in system identification and fractional-order systems.
+          Future Technology Research Center, YunTech.
           <a href="https://scholar.google.com.pk/citations?user=okVMi4UAAAAJ" target="_blank">Google Scholar</a>
 
-      - name: Dr. Zaheer Masood
+      - name: Dr. Zeshan Aslam Khan
         icon: fa-solid fa-user-graduate
         reference: >
-          Research collaborator at Capital University of Science and Technology. Works on deep learning and cybersecurity applications.
-          <a href="https://scholar.google.com/citations?user=j9pWRmkAAAAJ" target="_blank">Google Scholar</a>
+          International Graduate School of AI, YunTech.
+          <a href="https://scholar.google.com/citations?user=RcKNS4UAAAAJ" target="_blank">Google Scholar</a>
 
       - name: Dr. Muhammad Shoaib
         icon: fa-solid fa-user-graduate
         reference: >
-          Research collaborator at Yuan Ze University AI Center. Specializes in AI-driven scientific computing.
+          AI Center, Yuan Ze University.
           <a href="https://scholar.google.com/citations?user=uWdWliwAAAAJ" target="_blank">Google Scholar</a>
 
-    Research Team:
-      - name: Adil Sultan
-        icon: fa-solid fa-users
+      - name: Dr. Zaheer Masood
+        icon: fa-solid fa-user-graduate
         reference: >
-          Masters student at YunTech. Working on plankton dynamics, cholera modeling, environmental systems, and marine ecosystems.
-          <a href="https://scholar.google.com/citations?user=f-so7jsAAAAJ" target="_blank">Google Scholar</a>
+          Capital University of Science and Technology.
+          <a href="https://scholar.google.com/citations?user=j9pWRmkAAAAJ" target="_blank">Google Scholar</a>
 
+    Research Team:
       - name: Shahzaib Ahmed Hassan
         icon: fa-solid fa-users
         reference: >
-          NUST SEECS. Working on chaotic systems, neuronal models, cholesterol dynamics, and Rabinovich-Fabrikant attractors.
+          NUST SEECS.
           <a href="https://scholar.google.com/citations?user=1xD1zTQAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Adil Sultan
+        icon: fa-solid fa-users
+        reference: >
+          YunTech.
+          <a href="https://scholar.google.com/citations?user=f-so7jsAAAAJ" target="_blank">Google Scholar</a>
 
       - name: Shehzada Taimur
         icon: fa-solid fa-users
         reference: >
-          Working on memristive neuronal models and fractional-order systems. Paper accepted in Chaos, Solitons and Fractals.
+          YunTech.
 
       - name: Syed Zoraiz Ali Shehrazi
         icon: fa-solid fa-users
         reference: >
-          NUST SEECS. Research in machine learning, NLP, and neural networks.
+          NUST SEECS.
           <a href="https://scholar.google.com/citations?user=HqQ_69EAAAAJ" target="_blank">Google Scholar</a>
+
+      - name: Osman Hasan
+        icon: fa-solid fa-users
+        reference: >
+          NUST SEECS.
+          <a href="https://www.linkedin.com/in/osman-hasan-085b31269/" target="_blank">LinkedIn</a>
 
       - name: Sannan Zia Abbasi
         icon: fa-solid fa-users
         reference: >
-          NUST. AI developer working on language models and applied machine learning.
+          NUST SEECS.
           <a href="https://www.linkedin.com/in/sannan-abbasi-551193202/" target="_blank">LinkedIn</a>
-

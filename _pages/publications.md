@@ -36,7 +36,7 @@ nav_order: 2
     </div>
   </div>
   <div class="scholar-source">
-    Source: <a href="https://scholar.google.com/citations?user={{ site.data.scholar.id }}" target="_blank">Google Scholar</a> (auto-updated at build time)
+    Source: <a href="https://scholar.google.com/citations?user={{ site.data.scholar.id }}" target="_blank">Google Scholar</a>
   </div>
 </div>
 {% endif %}
