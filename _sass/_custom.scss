@@ -509,11 +509,11 @@ html[data-theme="dark"] .profile img {
  * Purple/lavender text highlighting (comprehensive)
  * ========================================================================= */
 
-/* Bold text gets purple across key sections */
+/* Bold text uses base text color (not theme color) to prevent reflow on theme switch */
 .about strong,
 .news strong,
 .cv strong {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
 }
 
 /* All headings: purple in light mode, lighter lavender in dark */
