@@ -67,10 +67,10 @@ permalink: /blog/:year/:title/
 lsi: false
 
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # -----------------------------------------------------------------------------
@@ -299,14 +299,14 @@ enable_openpanel_analytics: false
 enable_google_verification: false
 enable_bing_verification: false
 enable_cookie_consent: false
-enable_masonry: true
-enable_math: true
+enable_masonry: false
+enable_math: false
 enable_tooltips: false
 enable_darkmode: true
 enable_navbar_social: true
 enable_project_categories: true
-enable_medium_zoom: true
-enable_progressbar: true
+enable_medium_zoom: false
+enable_progressbar: false
 enable_video_embedding: false
 
 # -----------------------------------------------------------------------------
