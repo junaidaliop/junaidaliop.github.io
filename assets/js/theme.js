@@ -280,11 +280,12 @@ let determineThemeSetting = () => {
 let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
+    // Default to dark mode
     const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    } else {
+    if (userPref && userPref("(prefers-color-scheme: light)").matches) {
       return "light";
+    } else {
+      return "dark";
     }
   } else {
     return themeSetting;
