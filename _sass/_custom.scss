@@ -192,6 +192,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Smooth theme transition to prevent flash/displacement on toggle */
+body,
+body *:not(script):not(style) {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* ============================================================================
  * Back-to-top button purple styling
  * ========================================================================= */
@@ -229,13 +235,29 @@ html[data-theme="dark"] footer.fixed-bottom {
  * Dark mode text visibility fixes
  * ========================================================================= */
 
-html[data-theme="dark"] {
-  /* Ensure all body text is bright enough */
-  body {
-    font-size: 1.05rem;
-  }
+/* Global font sizes (same in both modes to prevent displacement on switch) */
+body {
+  font-size: 1.05rem;
+}
 
-  /* Fix subtitle / secondary text that uses text-color-light */
+.about .post-header .post-description {
+  font-size: 1.05rem;
+}
+
+.navbar .nav-link {
+  font-size: 1rem;
+}
+
+.news .table td {
+  font-size: 1rem;
+}
+
+.bibliography .year {
+  font-size: 1.3rem;
+}
+
+/* Dark mode color overrides only (no size changes) */
+html[data-theme="dark"] {
   .post-description,
   .post-meta,
   .header-bar .post-description,
@@ -244,22 +266,17 @@ html[data-theme="dark"] {
     color: #c0c0c0 !important;
   }
 
-  /* Fix about page subtitle */
   .about .post-header .post-description {
     color: #d0d0d0 !important;
-    font-size: 1.05rem;
   }
 
-  /* Fix profile more-info text */
   .profile .more-info p,
   .profile .address p {
     color: #c8c8c8 !important;
   }
 
-  /* Fix nav links */
   .navbar .nav-link {
     color: #e0e0e0 !important;
-    font-size: 1rem;
   }
 
   .navbar .nav-link:hover,
@@ -267,7 +284,6 @@ html[data-theme="dark"] {
     color: #bb86fc !important;
   }
 
-  /* Fix footer text */
   footer .container,
   footer .container p,
   footer .container a {
@@ -278,7 +294,6 @@ html[data-theme="dark"] {
     color: #bb86fc;
   }
 
-  /* Fix the news date text */
   .news .table td.date {
     color: #bb86fc;
     font-weight: 500;
@@ -286,22 +301,17 @@ html[data-theme="dark"] {
 
   .news .table td {
     color: #d8d8d8;
-    font-size: 1rem;
     border-bottom-color: #2a2a2a;
   }
 
-  /* Fix publication author text */
   .bibliography .author {
     color: #c8c8c8;
   }
 
-  /* Fix publication year headers */
   .bibliography .year {
     color: #ffffff;
-    font-size: 1.3rem;
   }
 
-  /* Fix CV section headers */
   .cv .card-header {
     color: #ffffff;
   }
@@ -310,7 +320,6 @@ html[data-theme="dark"] {
     color: #d8d8d8;
   }
 
-  /* Fix search input */
   #search-input {
     background-color: #1e1e1e;
     color: #e0e0e0;
@@ -321,19 +330,16 @@ html[data-theme="dark"] {
     color: #888;
   }
 
-  /* Fix table borders in dark mode */
   table td,
   table th {
     border-color: #333 !important;
   }
 
-  /* Fix code blocks */
   code {
     background-color: #2a2a2a;
     color: #e0b0ff;
   }
 
-  /* Navbar title/brand */
   .navbar-brand {
     color: #ffffff !important;
     font-weight: 700;
