@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://junaidaliop.github.io/sitemap.xml
