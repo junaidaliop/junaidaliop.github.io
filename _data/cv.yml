@@ -76,6 +76,7 @@ cv:
         icon: fa-solid fa-user-tie
         reference: >
           Department of Safety, Health and Environmental Engineering, YunTech.
+          <a href="https://scholar.google.com/citations?user=lU0ibEYAAAAJ" target="_blank">Google Scholar</a>
 
       - name: Dr. Naveed Ishtiaq Chaudhary
         icon: fa-solid fa-user-graduate
@@ -118,6 +119,7 @@ cv:
         icon: fa-solid fa-users
         reference: >
           YunTech.
+          <a href="https://scholar.google.com/citations?user=9dsGXGUAAAAJ" target="_blank">Google Scholar</a>
 
       - name: Syed Zoraiz Ali Shehrazi
         icon: fa-solid fa-users

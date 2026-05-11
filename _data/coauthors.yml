@@ -36,8 +36,12 @@
 
 "Shu":
   - firstname: ["Chi-Min", "C.-M.", "C.M."]
-    url: https://www.yuntech.edu.tw/
+    url: https://scholar.google.com/citations?user=lU0ibEYAAAAJ&hl=en
 
 "Sherazi":
   - firstname: ["Syed Zoraiz Ali", "S.Z.A."]
     url: https://scholar.google.com/citations?user=HqQ_69EAAAAJ
+
+"Taimur":
+  - firstname: ["Shehzada"]
+    url: https://scholar.google.com/citations?user=9dsGXGUAAAAJ&hl=en
