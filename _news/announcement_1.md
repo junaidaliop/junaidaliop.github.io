@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper accepted in **Chaos, Solitons and Fractals**.
+Paper accepted in **Chaos, Solitons and Fractals** -- the first intelligent neural surrogate for a fractional delay differential model of malware propagation in Industrial IoT.
