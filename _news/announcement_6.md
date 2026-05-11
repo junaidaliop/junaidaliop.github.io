@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-09-01 00:00:00+0800
+date: 2025-09-15 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-Selected for **Direct PhD program** (Masters to PhD) at National Yunlin University of Science and Technology, Taiwan.
+Published in **IEEE Transactions on Computational Biology and Bioinformatics** -- stochastic-deterministic modeling of immune responses and tumor evolution.
