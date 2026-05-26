@@ -29,7 +29,7 @@ I am a Direct PhD student, having transitioned from the Master's program in Sept
 
 My research develops **intelligent neural surrogates**, primarily data-driven autoregressive neural emulators, for fractional-order nonlinear dynamical systems. My thesis focuses on designing intelligent neural surrogate networks for nonlinear dynamical reconstruction of neuronal systems. I also work on fractional-calculus-inspired deep learning optimization algorithms for accelerated large language model training.
 
-I have authored **29 publications** across 24 WoS Core Collection indexed journals, including *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate master's students).
+I have authored **30 publications** across 24 WoS Core Collection indexed journals, including *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate master's students).
 
 ## Research Interests
 
