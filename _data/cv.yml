@@ -138,6 +138,23 @@ cv:
           NUST SEECS.
           <a href="https://www.linkedin.com/in/sannan-abbasi-551193202/" target="_blank">LinkedIn</a>
 
+    Languages:
+      - name: Urdu
+        icon: fa-solid fa-language
+        summary: Native
+
+      - name: English
+        icon: fa-solid fa-language
+        summary: Professional working proficiency
+
+      - name: Spanish
+        icon: fa-solid fa-language
+        summary: Built an 800-day Duolingo streak before life finally broke it -- conversational and rusting
+
+      - name: Mandarin Chinese
+        icon: fa-solid fa-language
+        summary: Passive osmosis from living in Taiwan; not actively studying
+
     Interests:
       - name: League of Legends
         icon: fa-solid fa-gamepad
@@ -162,7 +179,7 @@ cv:
       - name: Reading
         icon: fa-solid fa-book
         keywords:
-          - "Russian literature -- Dostoyevsky and Tolstoy on rotation"
+          - "Currently chipping away at Dostoyevsky's <em>Crime and Punishment</em>; Tolstoy on deck"
           - "Voracious reader across my research topics"
 
       - name: Touch Typing
