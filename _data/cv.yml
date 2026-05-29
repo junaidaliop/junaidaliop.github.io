@@ -52,6 +52,25 @@ cv:
         awarder: National Yunlin University of Science and Technology
         summary: Selected for Direct PhD program based on research output and academic performance.
 
+    Skills:
+      - name: Expertise
+        icon: fa-solid fa-code
+        keywords:
+          - "PyTorch"
+
+      - name: Proficient
+        icon: fa-solid fa-code
+        keywords:
+          - "MATLAB"
+          - "C++"
+
+      - name: Learning
+        icon: fa-solid fa-code
+        keywords:
+          - "JAX"
+          - "Julia"
+          - "Lean"
+
     Research Collaborators:
       - name: Prof. Chuan-Yu Chang
         icon: fa-solid fa-user-tie
@@ -145,15 +164,15 @@ cv:
 
       - name: English
         icon: fa-solid fa-language
-        summary: Professional working proficiency
+        summary: Professional
 
       - name: Spanish
         icon: fa-solid fa-language
-        summary: Built an 800-day Duolingo streak before life finally broke it -- conversational and rusting
+        summary: Conversational (rusty; 800-day Duolingo streak now broken)
 
       - name: Mandarin Chinese
         icon: fa-solid fa-language
-        summary: Passive osmosis from living in Taiwan; not actively studying
+        summary: Basic survival (picked up passively in Taiwan)
 
     Interests:
       - name: League of Legends
