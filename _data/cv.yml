@@ -4,7 +4,7 @@ cv:
   email: muhammadjunaidaliasifraja@gmail.com
   location: Yunlin, Taiwan
   image: prof_pic.jpg
-  summary: Machine Learning Researcher designing intelligent neural surrogates for complex dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 200+ Google Scholar citations). Phi Tau Phi Scholastic Honor Society member (top 2% of graduate master's students). Outside the lab -- semi-professional League of Legends mid-laner (Yasuo OTP) and a former IGL on Pakistan's top VALORANT roster.
+  summary: Machine Learning Researcher designing intelligent neural surrogates for nonlinear and fractional-order dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 200+ Google Scholar citations). Phi Tau Phi Scholastic Honor Society member (top 2% of graduate master's students). Off the clock -- competitive esports, classic Russian literature, and a stubborn allegiance to mid-lane Yasuo.
 
   social_networks:
     - network: GitHub
@@ -148,3 +148,24 @@ cv:
         icon: fa-solid fa-crosshairs
         keywords:
           - "Former top IGL on Pakistan's competitive scene -- in-game tag <code>efreet#pain</code>"
+
+      - name: Fortnite
+        icon: fa-solid fa-trophy
+        keywords:
+          - "Ranked among Pakistan's top players"
+
+      - name: Chess
+        icon: fa-solid fa-chess-knight
+        keywords:
+          - "Casual player (pretty meh, honestly)"
+
+      - name: Reading
+        icon: fa-solid fa-book
+        keywords:
+          - "Russian literature -- Dostoyevsky and Tolstoy on rotation"
+          - "Voracious reader across my research topics"
+
+      - name: Touch Typing
+        icon: fa-solid fa-keyboard
+        keywords:
+          - "100+ WPM on average"
