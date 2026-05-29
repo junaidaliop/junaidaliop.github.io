@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: machine learning, deep learning, physics-informed neural networks, scientific computing, fractional-order systems, medical image analysis, computational neuroscience
 lang: en
-icon: 🧠 # short emoji renders as an SVG favicon; or set a filename in assets/img/ for an image
+icon: favicon.svg # file in assets/img/ -- short string (<=4 chars) instead renders as SVG-text favicon
 
 url: https://junaidaliop.github.io
 baseurl: ""
