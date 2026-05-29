@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Academic CV of Muhammad Junaid Ali Asif Raja -- Machine Learning Researcher at National Yunlin University of Science and Technology.",
+        },{id: "nav-about-me",
+          title: "about me",
+          description: "More about Muhammad Junaid Ali Asif Raja -- Machine Learning Researcher at National Yunlin University of Science and Technology, with a peek at life beyond academia.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
