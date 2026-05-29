@@ -4,7 +4,7 @@ cv:
   email: muhammadjunaidaliasifraja@gmail.com
   location: Yunlin, Taiwan
   image: prof_pic.jpg
-  summary: Machine Learning Researcher designing intelligent neural surrogates for complex dynamical systems. 30 publications across 24 WoS Core Collection journals. Phi Tau Phi Scholastic Honor Society member (top 2% graduate master's students).
+  summary: Machine Learning Researcher designing intelligent neural surrogates for complex dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 200+ Google Scholar citations). Phi Tau Phi Scholastic Honor Society member (top 2% of graduate master's students). Outside the lab -- semi-professional League of Legends mid-laner (Yasuo OTP) and a former IGL on Pakistan's top VALORANT roster.
 
   social_networks:
     - network: GitHub
@@ -27,7 +27,6 @@ cv:
           - "Selected for Direct PhD program (Sept 2025)"
           - "Supervisor: Prof. Chuan-Yu Chang"
           - "Research: Machine Learning, Scientific Computing, Deep Learning Optimization"
-          - "30 WoS-indexed publications, h-index 9, 200+ citations"
 
       - institution: National University of Sciences and Technology (NUST)
         location: Islamabad, Pakistan
@@ -138,3 +137,14 @@ cv:
         reference: >
           NUST SEECS.
           <a href="https://www.linkedin.com/in/sannan-abbasi-551193202/" target="_blank">LinkedIn</a>
+
+    Interests:
+      - name: League of Legends
+        icon: fa-solid fa-gamepad
+        keywords:
+          - "Semi-professional mid-laner (Yasuo OTP)"
+
+      - name: VALORANT
+        icon: fa-solid fa-crosshairs
+        keywords:
+          - "Former top IGL on Pakistan's competitive scene -- in-game tag <code>efreet#pain</code>"
