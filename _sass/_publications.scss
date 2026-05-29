@@ -24,11 +24,12 @@
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+    font-weight: 700;
   }
 
   ol.bibliography {
@@ -38,6 +39,12 @@
 
     li {
       margin-bottom: 1rem;
+
+      .title,
+      .author,
+      .periodical {
+        text-align: justify;
+      }
 
       .preview {
         display: inline-block;
