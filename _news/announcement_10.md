@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-02-01 00:00:00+0800
+date: 2025-04-01 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-Published in **Chaos, Solitons and Fractals** -- hybrid neural-computational paradigm for complex firing patterns and excitability transitions in fractional Hindmarsh-Rose neuronal models.
+Paper on **Stuxnet virus spread** in air-gapped critical environments accepted at **Applied Soft Computing**. Deep learning networks for nonlinear delay differential systems.

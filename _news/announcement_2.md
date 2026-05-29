@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-03-18 00:00:00+0800
+date: 2026-05-12 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-Congratulations to **Shahzaib Ahmed Hassan** on the acceptance of his paper on intelligent neural surrogates for the Lorenz-Lu-Chen system in the **International Journal of Computer Mathematics**.
+Paper on **fractional delay differential malware propagation** in Industrial IoT systems accepted at **Chaos, Solitons and Fractals** -- the first intelligent neural surrogate for this class of models.
