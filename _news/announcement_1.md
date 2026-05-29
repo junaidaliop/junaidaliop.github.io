@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Crossed **200+ citations** on Google Scholar.
+Crossed the **200+ citation milestone** on [**Google Scholar**](https://scholar.google.com/citations?user=9VTFIJcAAAAJ&hl=en) -- huge thanks to every collaborator and reader along the way!
