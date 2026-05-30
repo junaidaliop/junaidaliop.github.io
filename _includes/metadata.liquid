@@ -64,7 +64,7 @@
   <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
@@ -226,22 +226,99 @@
     {% endcase %}
   {% endfor %}
 
+  {%- assign site_origin = site.url | append: site.baseurl -%}
+  {%- assign person_id = site_origin | append: '/#person' -%}
+  {%- assign website_id = site_origin | append: '/#website' -%}
+  {%- capture page_canonical -%}{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}{%- endcapture -%}
+  {%- assign is_about_page = false -%}
+  {%- if page.url == '/' or page.url == '/cv/' -%}
+    {%- assign is_about_page = true -%}
+  {%- endif -%}
+  {%- if is_blog_post -%}
+    {%- assign page_type = 'BlogPosting' -%}
+  {%- elsif is_about_page -%}
+    {%- assign page_type = 'ProfilePage' -%}
+  {%- else -%}
+    {%- assign page_type = 'WebPage' -%}
+  {%- endif -%}
   <script type="application/ld+json">
     {
-        "author":
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Person",
-            "name": "{{ author_name }}"
+          "@type": "Person",
+          "@id": "{{ person_id }}",
+          "name": "{{ author_name }}",
+          "alternateName": ["Junaid Ali", "M.J.A.A. Raja", "Muhammad Junaid Ali", "Junaid Raja"],
+          "givenName": "{{ site.first_name }}",
+          "familyName": "{{ site.last_name }}",
+          "url": "{{ site_origin }}/",
+          "image": "{{ site_origin }}/{{ site.og_image }}",
+          "jobTitle": "Machine Learning Researcher",
+          "description": "{{ site.description | strip_newlines | strip }}",
+          "knowsAbout": [
+            "Machine Learning",
+            "Deep Learning",
+            "Intelligent Neural Surrogates",
+            "Fractional-Order Dynamical Systems",
+            "Physics-Informed Neural Networks",
+            "Scientific Computing",
+            "Computational Neuroscience",
+            "Fractional Calculus",
+            "Autoregressive Neural Architectures",
+            "Chaotic Dynamical Systems"
+          ],
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": "National Yunlin University of Science and Technology",
+            "url": "https://www.yuntech.edu.tw/"
+          },
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "School of Electrical Engineering and Computer Science, National University of Sciences and Technology",
+            "url": "https://seecs.nust.edu.pk/"
+          },
+          "nationality": {
+            "@type": "Country",
+            "name": "Pakistan"
+          },
+          "workLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Yunlin",
+              "addressCountry": "TW"
+            }
+          }{% if sameaslinks != blank %},
+          "sameAs": {{ sameaslinks | jsonify }}{% endif %}
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        {
+          "@type": "WebSite",
+          "@id": "{{ website_id }}",
+          "url": "{{ site_origin }}/",
+          "name": "{{ title }}",
+          "description": "{{ site.description | strip_newlines | strip }}",
+          "publisher": { "@id": "{{ person_id }}" },
+          "author": { "@id": "{{ person_id }}" },
+          "inLanguage": "{{ site.lang }}",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{{ site_origin }}/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "{{ page_type }}",
+          "@id": "{{ page_canonical }}#webpage",
+          "url": "{{ page_canonical }}",
+          "name": "{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}",
+          "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_newlines | strip }}{% endif %}",
+          "isPartOf": { "@id": "{{ website_id }}" },
+          {% if is_about_page %}"mainEntity": { "@id": "{{ person_id }}" },{% endif %}
+          "author": { "@id": "{{ person_id }}" },
+          "inLanguage": "{{ site.lang }}"
+        }
+      ]
     }
   </script>
 {% endif %}
