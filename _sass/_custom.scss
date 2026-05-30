@@ -466,11 +466,20 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 576px) {
+  .scholar-card-inner {
+    padding: 14px 6px;
+    gap: 4px 2px;
+  }
   .scholar-stat {
-    padding: 8px 16px;
+    padding: 6px 10px;
+    min-width: 56px;
   }
   .scholar-number {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+  .scholar-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.5px;
   }
   .scholar-divider {
     display: none;
