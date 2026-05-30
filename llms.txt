@@ -4,7 +4,7 @@ sitemap: false
 ---
 # Muhammad Junaid Ali Asif Raja
 
-> Machine Learning Researcher and Direct PhD student at National Yunlin University of Science and Technology, Taiwan. Designs intelligent neural surrogates for nonlinear and fractional-order dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 200+ Google Scholar citations). Also referred to as: Junaid Ali, Junaid Raja, M.J.A.A. Raja, MJAA Raja, Muhammad Junaid Ali, Muhammad Junaid Ali Asif, Raja Muhammad Junaid Ali Asif, Ali Asif, and Ali Asif Raja.
+> Machine Learning Researcher and Direct PhD student at National Yunlin University of Science and Technology, Taiwan. Designs intelligent neural surrogates for nonlinear and fractional-order dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 200+ Google Scholar citations).
 
 ## About
 
