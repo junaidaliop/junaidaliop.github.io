@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # blank = uses full name
+title: blank # legacy theme convention: literal "blank" triggers author_name fallback in metadata.liquid
 first_name: Muhammad Junaid Ali Asif
 last_name: Raja
 contact_note: >
