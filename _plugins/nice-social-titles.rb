@@ -13,7 +13,7 @@ require 'jekyll-socials' if defined?(Bundler)
 module Jekyll
   class SocialLinksTag
     NICE_TITLES = {
-      "Cv pdf"                => "Download CV (PDF)",
+      "Cv pdf"                => "CV",
       "Email"                 => "Email",
       "Github username"       => "GitHub",
       "Gitlab username"       => "GitLab",

@@ -9,7 +9,7 @@ sitemap: false
 ## About
 
 - [Home / Bio]({{ site.url }}/): Brief introduction, current news feed, and selected publications.
-- [About Me]({{ site.url }}/cv/): Full academic profile — education, awards, research collaborators, skills, languages, and personal interests.
+- [About Me]({{ site.url }}/about/): Full academic profile — education, awards, research collaborators, skills, languages, and personal interests.
 - [Publications]({{ site.url }}/publications/): Full bibliography of 30 WoS-indexed publications with live Google Scholar metrics.
 - [CV (PDF)]({{ site.url }}/assets/pdf/cv.pdf): Downloadable academic CV.
 
