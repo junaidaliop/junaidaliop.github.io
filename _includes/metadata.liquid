@@ -234,7 +234,7 @@
   {%- assign website_id = site_origin | append: '/#website' -%}
   {%- capture page_canonical -%}{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}{%- endcapture -%}
   {%- assign is_about_page = false -%}
-  {%- if page.url == '/' or page.url == '/cv/' -%}
+  {%- if page.url == '/' or page.url == '/about/' -%}
     {%- assign is_about_page = true -%}
   {%- endif -%}
   {%- if is_blog_post -%}
