@@ -45,6 +45,11 @@
       .periodical {
         text-align: justify;
         padding-left: 1rem;
+
+        @media (max-width: 576px) {
+          padding-left: 0;
+          text-align: left;
+        }
       }
 
       .preview {
