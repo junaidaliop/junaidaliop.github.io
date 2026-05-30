@@ -21,7 +21,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/about/";
           },
         },{id: "news-started-masters-in-computer-science-and-information-engineering-at-national-yunlin-university-of-science-and-technology-taiwan",
           title: 'Started Masters in Computer Science and Information Engineering at National Yunlin University of...',
