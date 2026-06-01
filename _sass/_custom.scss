@@ -209,6 +209,22 @@ html.preload *::after {
   transition: none !important;
 }
 
+/* Bootstrap's compiled CSS hard-codes `.table { color: #212529 }`, which is a
+   dim gray that wins by specificity over the body's `color: var(--global-text-color)`.
+   Until theme.js belatedly adds `.table-dark`, the news-row dates and any other
+   <th>/<td> inherit #212529 -- visible as a dim flash on first paint in dark mode.
+   Override the color directly so tables track the current theme variable from
+   the very first frame, without depending on JS to swap classes. */
+.table,
+.table th,
+.table td,
+.table-dark,
+.table-dark th,
+.table-dark td {
+  color: var(--global-text-color);
+  background-color: transparent;
+}
+
 /* ============================================================================
  * Back-to-top button purple styling
  * ========================================================================= */
