@@ -42,12 +42,23 @@
 
       .title,
       .author,
-      .periodical {
-        text-align: justify;
+      .periodical,
+      .links,
+      .badges,
+      .hidden {
         padding-left: 1rem;
 
         @media (max-width: 576px) {
           padding-left: 0;
+        }
+      }
+
+      .title,
+      .author,
+      .periodical {
+        text-align: justify;
+
+        @media (max-width: 576px) {
           text-align: left;
         }
       }
