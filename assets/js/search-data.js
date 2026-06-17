@@ -59,41 +59,11 @@ ninja.data = [{
           section: "News",},{id: "news-crossed-the-200-citation-milestone-on-google-scholar-huge-thanks-to-every-collaborator-and-reader-along-the-way",
           title: 'Crossed the 200+ citation milestone on Google Scholar – huge thanks to every...',
           description: "",
-          section: "News",},{id: "projects-cf-tf",
-          title: 'cf-tf',
-          description: "Collaborative filtering experiments on MovieLens datasets for recommendation systems.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cf_tf/";
-            },},{id: "projects-daily-research-paper-recommender",
-          title: 'daily-research-paper-recommender',
-          description: "Personalized daily research paper recommender system.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/daily_paper_recommender/";
-            },},{id: "projects-guava-classification",
-          title: 'guava-classification',
-          description: "Guava disease classification using DenseNet-Reloaded and ADOPT optimizer, achieving 99.73% accuracy.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/guava_classification/";
-            },},{id: "projects-isic-2024-slice-3d",
+          section: "News",},{id: "projects-isic-2024-slice-3d",
           title: 'ISIC-2024 SLICE-3D',
           description: "Efficiency-frontier melanoma triage on ISIC-2024 SLICE-3D combining a LightGBM/CatBoost tabular expert with a ConvNeXt-V2-nano image expert.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/isic2024_tbp/";
-            },},{id: "projects-mnist-sopcnn",
-          title: 'MNIST-SOPCNN',
-          description: "Implementation of Self-Organizing Polynomial Convolutional Neural Networks on MNIST.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/mnist_sopcnn/";
-            },},{id: "projects-mobilenetv4",
-          title: 'MobileNetV4',
-          description: "PyTorch replication of the MobileNetV4 architecture for efficient mobile inference.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/mobilenetv4/";
-            },},{id: "projects-optim",
-          title: 'optim',
-          description: "Exploration and implementation of state-of-the-art deep learning optimization algorithms in PyTorch.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/optim/";
             },},{id: "projects-zij",
           title: 'zij',
           description: "A PyTorch canon documenting 740 deep learning optimizers across 11 categories, with 106 reference implementations and paper links.",
