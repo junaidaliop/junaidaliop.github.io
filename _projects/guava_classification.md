@@ -3,7 +3,7 @@ layout: page
 title: guava-classification
 description: Guava disease classification using DenseNet-Reloaded and ADOPT optimizer, achieving 99.73% accuracy.
 img:
-importance: 2
+importance: 4
 category: research
 github: https://github.com/junaidaliop/guava-classification
 ---
