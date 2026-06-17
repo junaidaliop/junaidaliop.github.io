@@ -3,7 +3,7 @@ layout: page
 title: optim
 description: Exploration and implementation of state-of-the-art deep learning optimization algorithms in PyTorch.
 img:
-importance: 1
+importance: 3
 category: research
 github: https://github.com/junaidaliop/optim
 ---

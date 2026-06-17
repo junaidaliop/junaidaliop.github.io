@@ -3,7 +3,7 @@ layout: page
 title: daily-research-paper-recommender
 description: Personalized daily research paper recommender system.
 img:
-importance: 5
+importance: 7
 category: tools
 github: https://github.com/junaidaliop/daily-research-paper-recommender
 ---

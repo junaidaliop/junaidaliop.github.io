@@ -3,7 +3,7 @@ layout: page
 title: MobileNetV4
 description: PyTorch replication of the MobileNetV4 architecture for efficient mobile inference.
 img:
-importance: 4
+importance: 6
 category: research
 github: https://github.com/junaidaliop/MobileNetV4
 ---
