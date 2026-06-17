@@ -44,4 +44,4 @@ Methods mirror the `torch.optim` structure so they act as drop-in replacements. 
 
 ### Looking for active contributors
 
-zij welcomes collaboration on new directions in AI/ML optimization. If you would like to propose a new method, contribute a reference implementation, open a new category, or co-author a survey, please reach out via the contact details on the [about page](/about/).
+zij welcomes collaboration on new directions in AI/ML optimization. If you have published a new optimization method and would like it added to the Canon, or if you would like to contribute a reference implementation for an existing entry, open a new category, or co-author a survey, please reach out via the contact details on the [about page](/about/).
