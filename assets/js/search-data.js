@@ -74,6 +74,11 @@ ninja.data = [{
           description: "Guava disease classification using DenseNet-Reloaded and ADOPT optimizer, achieving 99.73% accuracy.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/guava_classification/";
+            },},{id: "projects-isic-2024-slice-3d",
+          title: 'ISIC-2024 SLICE-3D',
+          description: "Efficiency-frontier melanoma triage on ISIC-2024 SLICE-3D combining a LightGBM/CatBoost tabular expert with a ConvNeXt-V2-nano image expert.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/isic2024_tbp/";
             },},{id: "projects-mnist-sopcnn",
           title: 'MNIST-SOPCNN',
           description: "Implementation of Self-Organizing Polynomial Convolutional Neural Networks on MNIST.",
@@ -89,6 +94,11 @@ ninja.data = [{
           description: "Exploration and implementation of state-of-the-art deep learning optimization algorithms in PyTorch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/optim/";
+            },},{id: "projects-zij",
+          title: 'zij',
+          description: "A PyTorch canon documenting 740 deep learning optimizers across 11 categories, with 106 reference implementations and paper links.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/zij/";
             },},{
         id: 'social-cv',
         title: 'CV',
