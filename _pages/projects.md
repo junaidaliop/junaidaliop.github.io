@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects and tools I'm building.
+description: zij, a canon of deep learning optimization algorithms, and ongoing research projects in AI and machine learning.
 nav: false
 nav_order: 4
-display_categories: [research, tools]
+display_categories: [library, research]
 horizontal: false
 ---
 
