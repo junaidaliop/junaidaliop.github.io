@@ -6,7 +6,6 @@ img:
 importance: 2
 category: research
 github: https://github.com/junaidaliop/isic2024-tbp
-redirect: https://junaidaliop.github.io/isic2024-tbp/
 ---
 
 <script type="application/ld+json">
@@ -49,6 +48,15 @@ redirect: https://junaidaliop.github.io/isic2024-tbp/
   "keywords": "ISIC 2024, SLICE-3D, melanoma classification, skin lesion classification, dermoscopy, partial AUC, pAUC, LightGBM, CatBoost, ConvNeXt-V2, gradient boosted trees, image classification, medical imaging, efficient deep learning, mixup, weight EMA, ugly duckling features, patient-grouped cross-validation"
 }
 </script>
+
+<p style="margin: 0 0 2rem 0;">
+  <a href="https://junaidaliop.github.io/isic2024-tbp/"
+     target="_blank" rel="noopener"
+     class="btn btn-lg"
+     style="background-color: var(--global-theme-color); color: white; border: none; padding: 0.75rem 1.5rem; font-weight: 600;">
+    Open the ISIC-2024 SLICE-3D site
+  </a>
+</p>
 
 A single-dataset, no-external-data, no-synthetic study of melanoma triage from 3D total-body photography. The task is to classify 393 malignant lesions among 400,666 benign crops using only the ISIC-2024 SLICE-3D dataset, with no external dermoscopy archives and no diffusion-synthesised positives.
 

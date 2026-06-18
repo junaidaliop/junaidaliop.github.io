@@ -6,7 +6,6 @@ img:
 importance: 1
 category: library
 github: https://github.com/junaidaliop/zij
-redirect: https://junaidaliop.github.io/zij/
 ---
 
 <script type="application/ld+json">
@@ -33,6 +32,15 @@ redirect: https://junaidaliop.github.io/zij/
   "keywords": "deep learning optimizers, PyTorch, machine learning, neural network optimization, SGD, Adam, AdamW, AdaBelief, Adafactor, Adam-mini, Adan, APOLLO, GaLore, LAMB, LARS, Lion, LOMO, MADGRAD, Muon, Prodigy, RAdam, RMSprop, SAM, Schedule-Free, sharpness-aware minimization, memory-efficient optimizers, fractional-order optimization, second-order optimization, zeroth-order optimization, learning rate schedulers"
 }
 </script>
+
+<p style="margin: 0 0 2rem 0;">
+  <a href="https://junaidaliop.github.io/zij/"
+     target="_blank" rel="noopener"
+     class="btn btn-lg"
+     style="background-color: var(--global-theme-color); color: white; border: none; padding: 0.75rem 1.5rem; font-weight: 600;">
+    Open the zij website
+  </a>
+</p>
 
 A zij (Arabic: زِيج, pronounced "zeej") is an astronomical handbook from the Islamic golden age: a set of tables and computational methods that astronomers consulted instead of re-deriving the field from scratch. The best known is the Zīj al-Sindhind of Muḥammad ibn Mūsā al-Khwārizmī, whose Latinized name became the word *algorithm* and whose book *al-Jabr* gave us the word *algebra*. This project takes the name in that spirit. One reference for the optimization algorithms of machine learning: the equation, the paper, and runnable code in one place.
 
