@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/about/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "zij, a canon of deep learning optimization algorithms, and ongoing research projects in AI and machine learning.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "news-started-masters-in-computer-science-and-information-engineering-at-national-yunlin-university-of-science-and-technology-taiwan",
           title: 'Started Masters in Computer Science and Information Engineering at National Yunlin University of...',
           description: "",
