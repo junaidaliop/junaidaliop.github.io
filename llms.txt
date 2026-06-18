@@ -4,7 +4,7 @@ sitemap: false
 ---
 # Muhammad Junaid Ali Asif Raja
 
-> Machine Learning Researcher and Direct PhD student at National Yunlin University of Science and Technology, Taiwan. Designs intelligent neural surrogates for nonlinear and fractional-order dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 200+ Google Scholar citations).
+> Machine Learning Researcher and Direct PhD student at National Yunlin University of Science and Technology, Taiwan. Designs intelligent neural surrogates for nonlinear and fractional-order dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 207 Google Scholar citations). Author of zij, a reference library cataloguing 740 deep learning optimization algorithms across 11 categories with 100+ PyTorch implementations.
 
 ## About
 
@@ -12,6 +12,12 @@ sitemap: false
 - [About Me]({{ site.url }}/about/): Full academic profile — education, awards, research collaborators, skills, languages, and personal interests.
 - [Publications]({{ site.url }}/publications/): Full bibliography of 30 WoS-indexed publications with live Google Scholar metrics.
 - [CV (PDF)]({{ site.url }}/assets/pdf/cv.pdf): Downloadable academic CV.
+
+## Projects
+
+- [Projects index]({{ site.url }}/projects/): Public projects on this site.
+- [zij]({{ site.url }}/projects/zij/) (companion site: https://junaidaliop.github.io/zij/, source: https://github.com/junaidaliop/zij): A canon of deep learning optimization algorithms. 740 methods across 11 categories, with 100+ implemented as a PyTorch library. Released under Apache-2.0.
+- [ISIC-2024 SLICE-3D]({{ site.url }}/projects/isic2024_tbp/) (companion site: https://junaidaliop.github.io/isic2024-tbp/, source: https://github.com/junaidaliop/isic2024-tbp): A single-dataset, no-external-data, no-synthetic study of melanoma triage. Headline result: 0.1738 stack OOF pAUC@80%TPR at 15.84M parameters and 60.9 ms CPU latency.
 
 ## External profiles
 
