@@ -31,6 +31,8 @@ My research develops **intelligent neural surrogates**, primarily data-driven au
 
 I have authored **30 publications** across 24 WoS Core Collection indexed journals, including *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate master's students).
 
+I also maintain **[zij](/projects/zij/)** ([companion site](https://junaidaliop.github.io/zij/), [GitHub](https://github.com/junaidaliop/zij)), a reference library for deep learning optimization algorithms. The Canon spans 740 methods across 11 categories, with 100+ implemented as a PyTorch library.
+
 ## Research Interests
 
 - Fractional-order accelerated gradient descent algorithms with applications in computer vision (biomedical) and recommender systems
