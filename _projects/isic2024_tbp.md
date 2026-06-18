@@ -6,6 +6,7 @@ img:
 importance: 2
 category: research
 github: https://github.com/junaidaliop/isic2024-tbp
+redirect: https://junaidaliop.github.io/isic2024-tbp/
 ---
 
 <script type="application/ld+json">

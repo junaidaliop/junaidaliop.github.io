@@ -1,5 +1,13 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+  {% assign href = project.url | relative_url %}
+  {% assign extra = "" %}
+  {% if project.redirect %}
+    {% assign href = project.redirect %}
+    {% if project.redirect contains "://" %}
+      {% assign extra = ' target="_blank" rel="noopener"' %}
+    {% endif %}
+  {% endif %}
+  <a href="{{ href }}"{{ extra }}>
     <div class="card h-100 hoverable">
       {% if project.img %}
         {%

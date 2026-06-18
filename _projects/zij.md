@@ -6,6 +6,7 @@ img:
 importance: 1
 category: library
 github: https://github.com/junaidaliop/zij
+redirect: https://junaidaliop.github.io/zij/
 ---
 
 <script type="application/ld+json">
