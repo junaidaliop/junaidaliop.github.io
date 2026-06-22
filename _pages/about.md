@@ -35,8 +35,6 @@ I also maintain **[zij](/projects/zij/)** ([companion site](https://junaidaliop.
 
 ## Research Interests
 
-These interests fall under Fractional Machine Learning / Deep Learning:
-
 - Fractional-order accelerated gradient descent algorithms with applications in computer vision (biomedical) and recommender systems
 - Fractional-calculus-inspired quasi and pseudo-fractional optimization algorithms for large language model training
 - Intelligent physics-informed and data-driven neural surrogates for fractional-order differential systems, including:
