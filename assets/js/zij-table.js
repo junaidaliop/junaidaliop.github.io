@@ -70,7 +70,7 @@
       ? out.join("")
       : '<tr><td colspan="6" class="zij-empty">No optimizers match. Try a different term or category.</td></tr>';
     metaEl.textContent = "Showing " + shown + " of " + DATA.totals.methods +
-      " catalogued methods (" + DATA.totals.implemented + " implemented).";
+      " methods indexed here (" + DATA.totals.implemented + " with a zij class).";
   }
 
   function renderChips() {
