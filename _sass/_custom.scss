@@ -306,6 +306,29 @@ html[data-theme="dark"] .projects .card-img-top {
 }
 
 /* ============================================================================
+ * Skip-to-content link (a11y: WCAG 2.4.1)
+ * ========================================================================= */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 10000;
+  padding: 0.6rem 1rem;
+  background: var(--global-theme-color);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0 0 6px 0;
+  text-decoration: none;
+
+  &:focus {
+    left: 0;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* ============================================================================
  * zij Canon interactive table
  * ========================================================================= */
 

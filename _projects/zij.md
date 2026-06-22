@@ -21,15 +21,7 @@ img: assets/img/projects/zij.png
   "programmingLanguage": "Python",
   "runtimePlatform": "PyTorch",
   "license": "https://www.apache.org/licenses/LICENSE-2.0",
-  "author": {
-    "@type": "Person",
-    "name": "Muhammad Junaid Ali Asif Raja",
-    "url": "https://junaidaliop.github.io/",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "National Yunlin University of Science and Technology"
-    }
-  },
+  "author": { "@id": "https://junaidaliop.github.io/#person" },
   "keywords": "deep learning optimizers, PyTorch, machine learning, neural network optimization, SGD, Adam, AdamW, AdaBelief, Adafactor, Adam-mini, Adan, APOLLO, GaLore, LAMB, LARS, Lion, LOMO, MADGRAD, Muon, Prodigy, RAdam, RMSprop, SAM, Schedule-Free, sharpness-aware minimization, memory-efficient optimizers, fractional-order optimization, second-order optimization, zeroth-order optimization, learning rate schedulers"
 }
 </script>
