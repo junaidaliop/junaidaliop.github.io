@@ -59,8 +59,13 @@ def parse_table(md, slug, display):
         # 5 cols (... |zij). Anything shorter is not a data row.
         if len(cells) < 4:
             continue
-        # skip header + separator rows
-        if cells[0].lower() in ("optimizer", "") or set(cells[0]) <= set("-: "):
+        # skip header + separator rows. Category tables use different first-column
+        # headers ("Optimizer", "Scheduler", ...), so match any of them and also
+        # guard against a header/template row where the venue cell literally reads
+        # "Venue".
+        if cells[0].lower() in ("optimizer", "scheduler", "method", "name", "") or set(cells[0]) <= set("-: "):
+            continue
+        if cells[1].strip().lower() == "venue":
             continue
 
         name, math_href = strip_links(cells[0])
