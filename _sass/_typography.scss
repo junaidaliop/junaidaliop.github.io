@@ -8,14 +8,12 @@ html {
   font-size: clamp(16px, 0.95rem + 0.25vw, 18px);
 }
 
-/* Font split (Fira Code is the identity, dominant on all chrome):
-   - Inter carries long-form body prose for readability.
-   - Fira Code owns every display/chrome surface: h1-h6, nav, the subtitle,
-     eyebrow labels, pills, stat numerals, and inline code.
-   Do NOT let Inter creep into headings or labels. */
+/* Body is Roboto (the owner's preferred reading face). Fira Code stays the
+   identity font on all chrome: h1-h6, nav, the subtitle, eyebrow labels,
+   pills, stat numerals, and inline code. */
 body {
-  font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  line-height: 1.65;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.8;
 }
 
 /* Fira Code carries the headings; negative tracking tightens mono's loose

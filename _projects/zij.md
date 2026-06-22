@@ -5,7 +5,7 @@ description: A canon of deep learning optimization algorithms. 740 methods acros
 importance: 1
 category: library
 github: https://github.com/junaidaliop/zij
-img: assets/img/projects/zij.png
+img: assets/img/projects/zij.svg
 ---
 
 <script type="application/ld+json">

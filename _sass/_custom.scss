@@ -33,7 +33,7 @@
 }
 
 /* Subtitle line under the name is identity chrome, so keep it Fira Code
-   even though running prose is now Inter. */
+   even though running prose is Roboto. */
 .post-header .desc,
 .post-header p.desc {
   font-family: 'Fira Code', 'Roboto Mono', monospace;
@@ -796,12 +796,22 @@ html[data-theme="dark"] {
  * General font size improvements
  * ========================================================================= */
 
+/* Soft justification: justify the column but let hyphenation absorb the gaps
+   so there are no hard rivers. No word-spacing hacks. */
 .about .clearfix > p {
   font-size: 1.1rem;
-  line-height: 1.7;
+  line-height: 1.8;
   text-align: justify;
-  word-spacing: -0.5px;
-  max-width: 72ch;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* Apply the same soft justification to long-form prose on project and
+   generic pages. */
+.post > article p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .about h2 {
