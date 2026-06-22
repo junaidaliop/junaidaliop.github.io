@@ -17,6 +17,16 @@ The user is the sole human author of this academic portfolio site. The public Gi
 
 If a session inherits past commits that still carry these trailers, the user has previously authorized history rewrites (interactive rebase or `git filter-repo --message-callback`) plus a force-push on `main` to clean them out. Do not skip hooks or signing while doing so.
 
+## Commit messages: plain and human, no AI-tells
+
+Write commit messages the way a person would. Keep them short and factual. Do NOT use:
+
+- words that read as machine/process jargon: "verbatim", "per audit", "AI-tell(s)", "tighten prose", "surface" (as a verb), "leverage", "comprehensive"
+- em-dashes or en-dashes (use commas/colons)
+- long multi-clause subject lines stuffed with every file touched
+
+Prefer: "Add Fractional ML/DL framing to site text", "Fix cv.yml build break", "Use Inter for body text". Describe the change, not the process that produced it.
+
 ## Other standing preferences
 
 - Minimum use of em-dashes (`—`) and en-dashes (`–`) in user-facing prose (project pages, news, abstracts). They are an AI-writing tell; prefer commas, colons, periods, semicolons, or parentheses.
