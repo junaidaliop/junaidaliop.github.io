@@ -6,7 +6,7 @@ description: zij, a canon of deep learning optimization algorithms, and ongoing 
 nav: true
 nav_order: 4
 display_categories: false
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
