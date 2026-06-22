@@ -6,6 +6,7 @@ img:
 importance: 1
 category: library
 github: https://github.com/junaidaliop/zij
+img: assets/img/projects/zij.png
 ---
 
 <script type="application/ld+json">
@@ -33,14 +34,9 @@ github: https://github.com/junaidaliop/zij
 }
 </script>
 
-<p style="margin: 0 0 2rem 0;">
-  <a href="https://junaidaliop.github.io/zij/"
-     target="_blank" rel="noopener"
-     class="btn btn-lg"
-     style="background-color: var(--global-theme-color); color: white; border: none; padding: 0.75rem 1.5rem; font-weight: 600;">
-    Open the zij website
-  </a>
-</p>
+<a href="https://junaidaliop.github.io/zij/"
+   target="_blank" rel="noopener"
+   class="btn-companion">Open the zij website</a>
 
 A zij (Arabic: زِيج, pronounced "zeej") is an astronomical handbook from the Islamic golden age: a set of tables and computational methods that astronomers consulted instead of re-deriving the field from scratch. The best known is the Zīj al-Sindhind of Muḥammad ibn Mūsā al-Khwārizmī, whose Latinized name became the word *algorithm* and whose book *al-Jabr* gave us the word *algebra*. This project takes the name in that spirit. One reference for the optimization algorithms of machine learning: the equation, the paper, and runnable code in one place.
 
@@ -51,6 +47,10 @@ Methods mirror the `torch.optim` structure so they act as drop-in replacements. 
 **Companion website:** [junaidaliop.github.io/zij](https://junaidaliop.github.io/zij/)  
 **Source code:** [github.com/junaidaliop/zij](https://github.com/junaidaliop/zij)
 
+<div class="cta-callout" markdown="1">
+
 ### Looking for active contributors
 
 zij welcomes collaboration on new directions in AI/ML optimization. If you have published a new optimization method and would like it added to the Canon, or if you would like to contribute a reference implementation for an existing entry, open a new category, or co-author a survey, please reach out via the contact details on the [about page](/about/).
+
+</div>

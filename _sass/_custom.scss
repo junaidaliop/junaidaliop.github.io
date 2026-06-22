@@ -226,6 +226,86 @@ html.preload *::after {
 }
 
 /* ============================================================================
+ * Project-page CTA button (links to companion website)
+ * ========================================================================= */
+
+.btn-companion {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.7rem 1.4rem;
+  margin: 0 0 2rem 0;
+  background-color: var(--global-theme-color);
+  color: #ffffff;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+
+  &::after {
+    content: "→";
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(187, 134, 252, 0.28);
+  }
+
+  &:hover::after {
+    transform: translateX(3px);
+  }
+}
+
+/* ============================================================================
+ * Call-to-action callout (e.g. "Looking for contributors")
+ * ========================================================================= */
+
+.cta-callout {
+  border-left: 3px solid var(--global-theme-color);
+  background: rgba(187, 134, 252, 0.05);
+  padding: 1.1rem 1.4rem;
+  margin: 2rem 0;
+  border-radius: 0 6px 6px 0;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    color: var(--global-theme-color);
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+/* ============================================================================
+ * Project card image polish (favicon-style logo + figures)
+ * ========================================================================= */
+
+.projects .card-img-top {
+  background: linear-gradient(135deg, rgba(187, 134, 252, 0.08), rgba(58, 0, 128, 0.04));
+  padding: 1rem;
+  object-fit: contain;
+  aspect-ratio: 16 / 10;
+}
+
+html[data-theme="dark"] .projects .card-img-top {
+  background: linear-gradient(135deg, rgba(187, 134, 252, 0.12), rgba(58, 0, 128, 0.18));
+}
+
+/* ============================================================================
  * Back-to-top button purple styling
  * ========================================================================= */
 

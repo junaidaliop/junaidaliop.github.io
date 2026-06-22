@@ -5,7 +5,7 @@ permalink: /projects/
 description: zij, a canon of deep learning optimization algorithms, and ongoing research projects in AI and machine learning.
 nav: true
 nav_order: 4
-display_categories: [library, research]
+display_categories: false
 horizontal: false
 ---
 

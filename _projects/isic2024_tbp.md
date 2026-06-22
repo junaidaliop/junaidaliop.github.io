@@ -2,7 +2,7 @@
 layout: page
 title: ISIC-2024 SLICE-3D
 description: An efficiency-frontier, single-dataset, no-external-data study of skin-lesion classification on ISIC-2024 SLICE-3D.
-img:
+img: assets/img/projects/isic.svg
 importance: 2
 category: research
 github: https://github.com/junaidaliop/isic2024-tbp
@@ -49,14 +49,9 @@ github: https://github.com/junaidaliop/isic2024-tbp
 }
 </script>
 
-<p style="margin: 0 0 2rem 0;">
-  <a href="https://junaidaliop.github.io/isic2024-tbp/"
-     target="_blank" rel="noopener"
-     class="btn btn-lg"
-     style="background-color: var(--global-theme-color); color: white; border: none; padding: 0.75rem 1.5rem; font-weight: 600;">
-    Open the ISIC-2024 SLICE-3D site
-  </a>
-</p>
+<a href="https://junaidaliop.github.io/isic2024-tbp/"
+   target="_blank" rel="noopener"
+   class="btn-companion">Open the ISIC-2024 SLICE-3D site</a>
 
 A single-dataset, no-external-data, no-synthetic study of melanoma triage from 3D total-body photography. The task is to classify 393 malignant lesions among 400,666 benign crops using only the ISIC-2024 SLICE-3D dataset, with no external dermoscopy archives and no diffusion-synthesised positives.
 
