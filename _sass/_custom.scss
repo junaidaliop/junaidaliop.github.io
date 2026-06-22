@@ -337,26 +337,41 @@ html.preload *::after {
  * Project card image polish (favicon-style logo + figures)
  * ========================================================================= */
 
-/* Horizontal project cards: square/landscape thumbnail on the left, kept
-   compact (capped height) and centered on a faint purple panel so the row
-   never goes "fat". */
-.projects .card-img,
+/* Vertical project cards: image on top (centered on a faint purple panel),
+   text below. Two cards sit side by side via row-cols-md-2. */
+.projects .card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
 .projects .card-img-top {
-  background: linear-gradient(135deg, rgba(187, 134, 252, 0.08), rgba(58, 0, 128, 0.04));
-  padding: 0.85rem;
+  width: 100%;
+  height: 200px;
   object-fit: contain;
-  height: 100%;
-  max-height: 170px;
+  padding: 1.75rem;
+  background: linear-gradient(135deg, rgba(187, 134, 252, 0.10), rgba(58, 0, 128, 0.06));
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
-html[data-theme="dark"] .projects .card-img,
 html[data-theme="dark"] .projects .card-img-top {
-  background: linear-gradient(135deg, rgba(187, 134, 252, 0.12), rgba(58, 0, 128, 0.18));
+  background: linear-gradient(135deg, rgba(187, 134, 252, 0.14), rgba(58, 0, 128, 0.22));
 }
 
-/* Keep the two horizontal cards aligned and not stretched on tall content */
-.projects .card .row.no-gutters {
-  align-items: stretch;
+.projects .card-body {
+  padding: 1.4rem 1.5rem 1.5rem;
+}
+
+.projects .card-title {
+  margin-bottom: 0.6rem;
+}
+
+/* Card descriptions read left-aligned, never justified/hyphenated. */
+.projects .card-text {
+  text-align: left;
+  hyphens: none;
+  -webkit-hyphens: none;
+  color: var(--global-text-color-light);
 }
 
 /* ============================================================================
@@ -808,7 +823,7 @@ html[data-theme="dark"] {
 
 /* Apply the same soft justification to long-form prose on project and
    generic pages. */
-.post > article p {
+.post > article > p {
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
