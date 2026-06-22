@@ -415,6 +415,49 @@ html[data-theme="dark"] .projects .card-img-top {
 }
 
 /* ============================================================================
+ * CV page polish: section cards, accented headings, skill chips
+ * ========================================================================= */
+
+.cv .card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+}
+
+/* Each section title gets a small purple tick + a hairline divider under it. */
+.cv .card-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.55rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 4px;
+    height: 1.05em;
+    margin-right: 0.6rem;
+    border-radius: 2px;
+    background: var(--global-theme-color);
+  }
+}
+
+/* Skill keywords as mono pills. */
+.cv-chip {
+  @extend %mono-label;
+  display: inline-block;
+  margin: 0.2rem 0.3rem 0.2rem 0;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  border: 1px solid rgba(187, 134, 252, 0.35);
+  background: rgba(187, 134, 252, 0.06);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.78rem;
+}
+
+/* ============================================================================
  * CV professional summary (lead line + bullet list, not a paragraph)
  * ========================================================================= */
 
