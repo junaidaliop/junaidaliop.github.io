@@ -6,4 +6,4 @@ related_posts: false
 pill: student
 ---
 
-Congratulations to **Shehzada Taimur**, **Shahzaib Ahmed Hassan**, and **Sannan Zia Abbasi** on the acceptance of their paper in **Chaos, Solitons and Fractals** -- hybrid neural-computational paradigm for fractional-order locally active memristive neuronal models.
+Congratulations to **Shehzada Taimur**, **Shahzaib Ahmed Hassan**, and **Sannan Zia Abbasi** on the acceptance of their paper in **Chaos, Solitons & Fractals**: a hybrid neural-computational paradigm for fractional-order locally active memristive neuronal models.

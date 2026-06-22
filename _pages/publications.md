@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: 30 publications across 24 WoS Core Collection indexed journals.
+description: 30 publications across 24 journals indexed in the WoS Core Collection.
 nav: true
 nav_order: 2
 ---

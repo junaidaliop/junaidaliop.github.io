@@ -6,4 +6,4 @@ related_posts: false
 pill: milestone
 ---
 
-Awarded the **Phi Tau Phi Scholastic Honor** -- membership in the Phi Tau Phi Scholastic Honor Society of the Republic of China, recognizing the **top 2% of graduate masters students** for scholastic achievement.
+Awarded the **Phi Tau Phi Scholastic Honor**, membership in the Phi Tau Phi Scholastic Honor Society of the Republic of China, which recognizes the **top 2% of graduate master's students**.

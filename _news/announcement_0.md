@@ -6,4 +6,4 @@ related_posts: false
 pill: release
 ---
 
-Released **[zij](/projects/zij/)**, a canon of deep learning optimization algorithms covering 740 methods across 11 categories, with 100+ implemented as a PyTorch library. See the [companion website](https://junaidaliop.github.io/zij/) or the [source on GitHub](https://github.com/junaidaliop/zij).
+Released **[zij](/projects/zij/)**, a canon of deep learning optimization algorithms covering 740 methods across 11 categories, with 100+ implemented as a PyTorch library. Its research arm develops fractional-calculus-inspired optimization algorithms. See the [companion website](https://junaidaliop.github.io/zij/) or the [source on GitHub](https://github.com/junaidaliop/zij).

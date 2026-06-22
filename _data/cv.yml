@@ -4,7 +4,7 @@ cv:
   email: muhammadjunaidaliasifraja@gmail.com
   location: Yunlin, Taiwan
   image: prof_pic.jpg
-  summary: Machine Learning Researcher designing intelligent neural surrogates for nonlinear and fractional-order dynamical systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 207 Google Scholar citations). Phi Tau Phi Scholastic Honor Society member (top 2% of graduate master's students).
+  summary: Machine Learning Researcher in Fractional Machine Learning / Deep Learning: intelligent neural surrogates for fractional-order dynamical systems, and fractional-calculus-inspired deep learning optimization. 30 publications across 24 WoS Core Collection journals (h-index 9, 207 Google Scholar citations). Phi Tau Phi Scholastic Honor Society member (top 2% of graduate master's students).
 
   social_networks:
     - network: GitHub
@@ -20,13 +20,13 @@ cv:
         location: Yunlin, Taiwan
         url: https://www.yuntech.edu.tw/
         area: Computer Science and Information Engineering
-        studyType: Direct PhD (Masters to PhD)
+        studyType: Direct PhD (Master's to PhD)
         start_date: 2024-02
         end_date: Present
         highlights:
           - "Selected for Direct PhD program (Sept 2025)"
           - "Supervisor: Prof. Chuan-Yu Chang"
-          - "Research: Machine Learning, Scientific Computing, Deep Learning Optimization"
+          - "Research: Fractional Machine Learning / Deep Learning, neural surrogates for fractional-order dynamical systems, deep learning optimization"
 
       - institution: National University of Sciences and Technology (NUST)
         location: Islamabad, Pakistan
@@ -39,7 +39,7 @@ cv:
           - "School of Electrical Engineering and Computer Science (SEECS)"
           - "Advisors: Prof. Faisal Shafait, Prof. Adnan Ul-Hasan"
           - "Affiliated with TUKL-DLL Lab, NCAI"
-          - "FYP: 3D Point Clouds on Embedded Platforms -- published as <a href='https://arxiv.org/abs/2512.22139' target='_blank'>HLS4PC</a> (SAMOS 2025)"
+          - "FYP: 3D Point Clouds on Embedded Platforms, published as <a href='https://arxiv.org/abs/2512.22139' target='_blank'>HLS4PC</a> (SAMOS 2025)"
 
     Awards:
       - title: Phi Tau Phi Scholastic Honor Society Member
@@ -183,7 +183,7 @@ cv:
       - name: VALORANT
         icon: fa-solid fa-crosshairs
         keywords:
-          - "Former top IGL on Pakistan's competitive scene -- in-game tag <code>efreet#pain</code>"
+          - "Former top IGL on Pakistan's competitive scene (in-game tag <code>efreet#pain</code>)"
 
       - name: Fortnite
         icon: fa-solid fa-trophy
@@ -199,7 +199,7 @@ cv:
         icon: fa-solid fa-book
         keywords:
           - "Currently chipping away at Dostoyevsky's <em>Crime and Punishment</em>; Tolstoy on deck"
-          - "Voracious reader across my research topics"
+          - "Reads widely around current research topics"
 
       - name: Touch Typing
         icon: fa-solid fa-keyboard
