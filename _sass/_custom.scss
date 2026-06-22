@@ -32,6 +32,13 @@
   font-variant-numeric: tabular-nums lining-nums;
 }
 
+/* Subtitle line under the name is identity chrome, so keep it Fira Code
+   even though running prose is now Inter. */
+.post-header .desc,
+.post-header p.desc {
+  font-family: 'Fira Code', 'Roboto Mono', monospace;
+}
+
 .kicker {
   @extend %mono-label;
   display: block;
