@@ -6,4 +6,4 @@ related_posts: false
 pill: milestone
 ---
 
-Selected for **Direct PhD program** (Masters to PhD) at National Yunlin University of Science and Technology, Taiwan.
+Selected for the **Direct PhD program** (Master's to PhD) at National Yunlin University of Science and Technology, Taiwan.

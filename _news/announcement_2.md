@@ -6,4 +6,4 @@ related_posts: false
 pill: paper
 ---
 
-Paper on **fractional delay differential malware propagation** in Industrial IoT systems accepted at **Chaos, Solitons and Fractals** -- the first intelligent neural surrogate for this class of models.
+Paper on **fractional delay differential malware propagation** in Industrial IoT systems accepted at **Chaos, Solitons & Fractals**: the first intelligent neural surrogate for this class of models.

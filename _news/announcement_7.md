@@ -6,4 +6,4 @@ related_posts: false
 pill: paper
 ---
 
-Published in **IEEE Transactions on Computational Biology and Bioinformatics** -- stochastic-deterministic modeling of immune responses and tumor evolution.
+Published in **IEEE Transactions on Computational Biology and Bioinformatics**: stochastic-deterministic modeling of immune responses and tumor evolution.

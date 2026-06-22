@@ -6,4 +6,4 @@ related_posts: false
 pill: paper
 ---
 
-Published in **Chaos, Solitons and Fractals** -- hybrid neural-computational paradigm for complex firing patterns and excitability transitions in fractional Hindmarsh-Rose neuronal models.
+Published in **Chaos, Solitons & Fractals**: a hybrid neural-computational paradigm for complex firing patterns and excitability transitions in fractional Hindmarsh-Rose neuronal models.

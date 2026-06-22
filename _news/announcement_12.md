@@ -6,4 +6,4 @@ related_posts: false
 pill: milestone
 ---
 
-Started **Masters in Computer Science and Information Engineering** at National Yunlin University of Science and Technology, Taiwan.
+Started a **Master's in Computer Science and Information Engineering** at National Yunlin University of Science and Technology, Taiwan.

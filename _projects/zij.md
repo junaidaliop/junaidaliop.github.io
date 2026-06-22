@@ -2,7 +2,6 @@
 layout: page
 title: zij
 description: A canon of deep learning optimization algorithms. 740 methods across 11 categories, with 100+ implemented as a PyTorch library.
-img:
 importance: 1
 category: library
 github: https://github.com/junaidaliop/zij
@@ -32,9 +31,9 @@ img: assets/img/projects/zij.png
 
 A zij (Arabic: زِيج, pronounced "zeej") is an astronomical handbook from the Islamic golden age: a set of tables and computational methods that astronomers consulted instead of re-deriving the field from scratch. The best known is the Zīj al-Sindhind of Muḥammad ibn Mūsā al-Khwārizmī, whose Latinized name became the word *algorithm* and whose book *al-Jabr* gave us the word *algebra*. This project takes the name in that spirit. One reference for the optimization algorithms of machine learning: the equation, the paper, and runnable code in one place.
 
-The Canon spans 740 methods across 11 categories, with 100+ implemented as a PyTorch library. The categories are first-order, memory-efficient, fractional-order, distributed, second-order, zeroth-order, privacy-preserving, sharpness-aware, quantum-inspired, learning-rate-free, and learning-rate schedulers. Each entry lists the canonical name, publication venue, paper reference, code availability, and the corresponding `zij` class name where applicable.
+The Canon spans 740 methods across 11 categories, with 100+ implemented as a PyTorch library. The categories are first-order, memory-efficient, fractional-order, distributed, second-order, zeroth-order, privacy-preserving, sharpness-aware, quantum-inspired, learning-rate-free, and learning-rate schedulers. Each entry lists the canonical name, publication venue, paper reference, code availability, and the corresponding `zij` class name where applicable. The fractional-order category is the research arm of this project: it carries work on fractional-calculus-inspired deep learning optimization and fractional-order accelerated gradient methods.
 
-Methods mirror the `torch.optim` structure so they act as drop-in replacements. Install via `pip install zij`. The library ships 100+ ready-to-use optimizers spanning classical methods (SGD, Adam, AdamW, LBFGS, LARS, LAMB), recent variants (Muon, Lion, Prodigy, SAM family, Schedule-Free), memory-efficient designs (GaLore, LOMO, AdaLomo, APOLLO, Adafactor), and specialized techniques (Adam-mini, Adan, AdaBelief, RAdam, MADGRAD). It also interoperates with `transformers.TrainingArguments` via the `optim` parameter, including bitsandbytes and torchao optimizers. JAX and TensorFlow ports following the same documentation standard are planned. Released under Apache-2.0.
+Methods mirror the `torch.optim` structure so they act as drop-in replacements. Install via `pip install zij`. The library ships 100+ optimizers. These range from classical methods (SGD, Adam, AdamW, LBFGS, LARS, LAMB) to recent variants such as Muon, Lion, Prodigy, the SAM family, and Schedule-Free. Memory-efficient designs (GaLore, LOMO, AdaLomo, APOLLO, Adafactor) and other specialized techniques (Adam-mini, Adan, AdaBelief, RAdam, MADGRAD) are included as well. It also interoperates with `transformers.TrainingArguments` via the `optim` parameter, including bitsandbytes and torchao optimizers. JAX and TensorFlow ports following the same documentation standard are planned. Released under Apache-2.0.
 
 **Companion website:** [junaidaliop.github.io/zij](https://junaidaliop.github.io/zij/)  
 **Source code:** [github.com/junaidaliop/zij](https://github.com/junaidaliop/zij)
@@ -68,6 +67,6 @@ Methods mirror the `torch.optim` structure so they act as drop-in replacements. 
 
 ### Looking for active contributors
 
-zij welcomes collaboration on new directions in AI/ML optimization. If you have published a new optimization method and would like it added to the Canon, or if you would like to contribute a reference implementation for an existing entry, open a new category, or co-author a survey, please reach out via the contact details on the [about page](/about/).
+zij welcomes collaboration on new directions in AI/ML optimization. If you have published a method you would like added to the Canon, a reference implementation for an existing entry, a new category, or a survey to co-author, please get in touch using the contact details on the [about page](/about/).
 
 </div>

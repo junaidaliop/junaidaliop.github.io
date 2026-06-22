@@ -6,4 +6,4 @@ related_posts: false
 pill: paper
 ---
 
-New paper published in **Water Research** (2026) -- neuro-computational surrogates for aqueous fractional-order nekton-plankton spatiotemporal dynamics. Our second publication in this journal. Congratulations to **Adil Sultan**.
+Published in **Water Research** (2026): neuro-computational surrogates for aqueous fractional-order nekton-plankton spatiotemporal dynamics, the group's second paper in this journal. Congratulations to **Adil Sultan**.
