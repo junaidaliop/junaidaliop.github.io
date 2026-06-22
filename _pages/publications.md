@@ -43,8 +43,21 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<div class="topic-chips" id="topic-chips" role="group" aria-label="Filter publications by topic">
+  <button type="button" class="topic-chip" data-topic="all" aria-pressed="true">all</button>
+  <button type="button" class="topic-chip" data-topic="optimization" aria-pressed="false">optimization</button>
+  <button type="button" class="topic-chip" data-topic="neuronal" aria-pressed="false">neuronal</button>
+  <button type="button" class="topic-chip" data-topic="chaotic" aria-pressed="false">chaotic</button>
+  <button type="button" class="topic-chip" data-topic="ecological" aria-pressed="false">ecological</button>
+  <button type="button" class="topic-chip" data-topic="biomedical" aria-pressed="false">biomedical</button>
+  <button type="button" class="topic-chip" data-topic="security" aria-pressed="false">security</button>
+  <button type="button" class="topic-chip" data-topic="fluids" aria-pressed="false">fluids</button>
+</div>
+
 <div class="publications">
 
 {% bibliography %}
 
 </div>
+
+<script src="{{ '/assets/js/publications.js' | relative_url | bust_file_cache }}" defer></script>

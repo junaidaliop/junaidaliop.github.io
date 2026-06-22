@@ -400,6 +400,71 @@ html[data-theme="dark"] .projects .card-img-top {
 }
 
 /* ============================================================================
+ * Publications: topic-chip filter, first-author lead pill, sticky year headers
+ * ========================================================================= */
+
+.topic-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+}
+
+.topic-chip {
+  @extend %mono-label;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  border: 1px solid rgba(187, 134, 252, 0.35);
+  background: transparent;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+  }
+
+  &[aria-pressed="true"] {
+    color: #fff;
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
+
+/* Composes with al-folio bibsearch: an entry is visible only if it carries
+   neither .unloaded (search miss) nor .chip-hidden (topic miss). */
+.bibliography li.chip-hidden {
+  display: none;
+}
+
+.lead-pill {
+  @extend %mono-label;
+  display: inline-block;
+  color: #fff;
+  background: var(--global-theme-color);
+  font-size: 0.6rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 3px;
+  margin-left: 0.45rem;
+  vertical-align: middle;
+}
+
+/* Sticky year headers with a count chip injected by publications.js */
+h2.bibliography {
+  position: sticky;
+  top: var(--navbar-height);
+  z-index: 2;
+  background: var(--global-bg-color);
+  scroll-margin-top: var(--navbar-height);
+}
+
+.year-group__count {
+  @extend %mono-label;
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+}
+
+/* ============================================================================
  * zij Canon interactive table
  * ========================================================================= */
 
