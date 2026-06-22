@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-about-me",
-          title: "about me",
-          description: "",
+        },{id: "nav-news",
+          title: "news",
+          description: "Updates and announcements.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/about/";
+            window.location.href = "/news/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/about/";
           },
         },{id: "news-started-masters-in-computer-science-and-information-engineering-at-national-yunlin-university-of-science-and-technology-taiwan",
           title: 'Started Masters in Computer Science and Information Engineering at National Yunlin University of...',
