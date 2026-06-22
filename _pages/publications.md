@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: 30 publications across 24 journals indexed in the WoS Core Collection.
+description: 30 publications across 26 journals indexed in the WoS Core Collection.
 nav: true
 nav_order: 2
 ---
@@ -31,7 +31,7 @@ nav_order: 2
     </div>
     <div class="scholar-divider"></div>
     <div class="scholar-stat">
-      <span class="scholar-number">24</span>
+      <span class="scholar-number">26</span>
       <span class="scholar-label">WoS Journals</span>
     </div>
   </div>
