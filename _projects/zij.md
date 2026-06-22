@@ -47,6 +47,31 @@ Methods mirror the `torch.optim` structure so they act as drop-in replacements. 
 **Companion website:** [junaidaliop.github.io/zij](https://junaidaliop.github.io/zij/)  
 **Source code:** [github.com/junaidaliop/zij](https://github.com/junaidaliop/zij)
 
+## Explore the Canon
+
+<div id="zij-canon" data-src="{{ '/assets/json/zij_optimizers.json' | relative_url }}">
+  <div class="zij-canon-controls">
+    <input type="search" id="zij-search" class="zij-search" placeholder="Search optimizers by name, venue, or class" aria-label="Search the zij optimizer Canon">
+    <label class="zij-impl-toggle"><input type="checkbox" id="zij-impl-only"> Implemented only</label>
+  </div>
+  <div class="zij-canon-chips" id="zij-chips" role="group" aria-label="Filter by category"></div>
+  <div class="zij-canon-meta" id="zij-meta">Loading the Canon snapshot…</div>
+  <div class="zij-canon-tablewrap">
+    <table class="zij-canon-table">
+      <thead>
+        <tr><th>Optimizer</th><th>Category</th><th>Venue</th><th>Paper</th><th>Code</th><th>zij</th></tr>
+      </thead>
+      <tbody id="zij-rows"></tbody>
+    </table>
+  </div>
+  <noscript>
+    The interactive Canon table needs JavaScript. Browse the full Canon on the
+    <a href="https://junaidaliop.github.io/zij/" target="_blank" rel="noopener">companion website</a>.
+  </noscript>
+</div>
+
+<script src="{{ '/assets/js/zij-table.js' | relative_url }}" defer></script>
+
 <div class="cta-callout" markdown="1">
 
 ### Looking for active contributors
