@@ -340,9 +340,27 @@ html.preload *::after {
 /* Vertical project cards: image on top (centered on a faint purple panel),
    text below. Two cards sit side by side via row-cols-md-2. */
 .projects .card {
+  position: relative;
   border: 1px solid var(--global-divider-color);
   border-radius: 12px;
   overflow: hidden;
+}
+
+/* Title link covers the whole card (stretched-link); keep it ink, not blue. */
+.projects .card-title a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+/* The GitHub icon must sit above the stretched-link to stay clickable. */
+.projects .github-icon {
+  position: relative;
+  z-index: 2;
 }
 
 .projects .card-img-top {
@@ -513,6 +531,12 @@ html[data-theme="dark"] .projects .card-img-top {
    neither .unloaded (search miss) nor .chip-hidden (topic miss). */
 .bibliography li.chip-hidden {
   display: none;
+}
+
+.bib-empty {
+  color: var(--global-text-color-light);
+  font-style: italic;
+  padding: 1rem 0;
 }
 
 .lead-pill {

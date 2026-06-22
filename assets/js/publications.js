@@ -44,7 +44,21 @@
       return raw.toLowerCase().split(/[;,\s]+/).filter(Boolean);
     }
 
+    function isHidden(li) {
+      // hidden by the topic chip OR by the bibsearch text filter
+      return li.classList.contains("chip-hidden") || li.classList.contains("unloaded");
+    }
+
+    // empty-state message shown when no entry survives the active filters
+    var emptyEl = document.createElement("p");
+    emptyEl.className = "bib-empty";
+    emptyEl.hidden = true;
+    emptyEl.textContent = "No publications match the current filters.";
+    var firstList = lists[0];
+    firstList.parentNode.insertBefore(emptyEl, firstList);
+
     function syncYearHeaders() {
+      var anyVisible = false;
       document.querySelectorAll("h2.bibliography").forEach(function (h2) {
         var el = h2.nextElementSibling;
         while (el && el.tagName !== "OL" && el.tagName !== "H2") el = el.nextElementSibling;
@@ -52,10 +66,11 @@
         var lis = el.querySelectorAll(":scope > li");
         var allHidden = true;
         lis.forEach(function (li) {
-          if (!li.classList.contains("chip-hidden")) allHidden = false;
+          if (!isHidden(li)) { allHidden = false; anyVisible = true; }
         });
         h2.classList.toggle("chip-hidden", allHidden && lis.length > 0);
       });
+      emptyEl.hidden = anyVisible;
     }
 
     function applyTopic(topic) {
@@ -75,5 +90,14 @@
         applyTopic(chip.getAttribute("data-topic"));
       });
     });
+
+    // Re-sync year headers + empty-state after the bibsearch filter runs, so the
+    // chip filter and the text search agree on what is empty.
+    var searchInput = document.getElementById("bibsearch");
+    if (searchInput) {
+      searchInput.addEventListener("input", function () {
+        setTimeout(syncYearHeaders, 350);
+      });
+    }
   });
 })();
