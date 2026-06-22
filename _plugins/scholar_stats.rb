@@ -32,8 +32,11 @@ module Jekyll
       end
       Jekyll.logger.info "ScholarStats:", "Fetched live Google Scholar metrics"
       tbl_data
+    rescue OpenURI::HTTPError => e
+      Jekyll.logger.warn "ScholarStats:", "Blocked by Scholar (HTTP #{e.io.status.join(' ')}), using cache"
+      nil
     rescue => e
-      Jekyll.logger.warn "ScholarStats:", "Live fetch failed (#{e.message}), using cache"
+      Jekyll.logger.warn "ScholarStats:", "Live fetch failed (#{e.class}: #{e.message}), using cache"
       nil
     end
 

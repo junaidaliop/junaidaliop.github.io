@@ -19,15 +19,7 @@ github: https://github.com/junaidaliop/isic2024-tbp
   "programmingLanguage": "Python",
   "runtimePlatform": "PyTorch",
   "author": [
-    {
-      "@type": "Person",
-      "name": "Muhammad Junaid Ali Asif Raja",
-      "url": "https://junaidaliop.github.io/",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "National Yunlin University of Science and Technology"
-      }
-    },
+    { "@id": "https://junaidaliop.github.io/#person" },
     {
       "@type": "Person",
       "name": "Adil Sultan",
