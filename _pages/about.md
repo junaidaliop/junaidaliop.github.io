@@ -39,8 +39,7 @@ These interests fall under Fractional Machine Learning / Deep Learning:
 
 - Fractional-order accelerated gradient descent algorithms with applications in computer vision (biomedical) and recommender systems
 - Fractional-calculus-inspired quasi and pseudo-fractional optimization algorithms for large language model training
-- Physics-informed neural networks
-- Intelligent physics-informed and surrogate methods for fractional-order differential systems, including:
+- Intelligent physics-informed and data-driven neural surrogates for fractional-order differential systems, including:
   - Neuronal dynamics and chaotic attractors (Hindmarsh-Rose, FitzHugh-Nagumo, Rabinovich-Fabrikant)
   - Ecological and environmental systems (plankton dynamics)
   - Malware propagation in cyber-physical and SCADA systems
