@@ -43,4 +43,3 @@ I also maintain **[zij](/projects/zij/)** ([companion site](https://junaidaliop.
   - Ecological and environmental systems (plankton dynamics)
   - Malware propagation in cyber-physical and SCADA systems
   - Computational fluid dynamics
-- Edge and embedded AI
