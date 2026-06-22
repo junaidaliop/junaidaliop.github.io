@@ -4,7 +4,7 @@ sitemap: false
 ---
 # Muhammad Junaid Ali Asif Raja
 
-> Machine Learning Researcher and Direct PhD student at National Yunlin University of Science and Technology, Taiwan. Works on Fractional Machine Learning / Deep Learning: intelligent neural surrogates for nonlinear and fractional-order dynamical systems, fractional-calculus-inspired deep learning optimization, and physics-informed neural networks for fractional systems. 30 publications across 24 WoS Core Collection journals (h-index 9, 207 Google Scholar citations). Author of zij, a reference library cataloguing 740 deep learning optimization algorithms across 11 categories with 100+ PyTorch implementations.
+> Machine Learning Researcher and Direct PhD student at National Yunlin University of Science and Technology, Taiwan. Works on Fractional Machine Learning / Deep Learning: intelligent neural surrogates for nonlinear and fractional-order dynamical systems, fractional-calculus-inspired deep learning optimization, and physics-informed neural networks for fractional systems. 30 publications across 26 WoS Core Collection journals (h-index 9, 207 Google Scholar citations). Author of zij, a reference library cataloguing 740 deep learning optimization algorithms across 11 categories with 100+ PyTorch implementations.
 
 ## About
 
