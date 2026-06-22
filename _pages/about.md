@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Machine Learning Researcher, Fractional ML/DL</strong> &bull; <a href='https://www.yuntech.edu.tw/'>National Yunlin University of Science and Technology</a>
+subtitle: <strong>Machine Learning Researcher</strong> &bull; <a href='https://www.yuntech.edu.tw/'>National Yunlin University of Science and Technology</a>
 
 profile:
   align: right
@@ -27,7 +27,7 @@ I am **Muhammad Junaid Ali Asif Raja**, a Machine Learning Researcher at the **N
 
 I am a Direct PhD student, having transitioned from the Master's program in September 2025. I hold a Bachelor's degree in Electrical Engineering from [**SEECS, NUST**](https://seecs.nust.edu.pk/), Islamabad, where I was advised by [Prof. Faisal Shafait](https://scholar.google.com/citations?user=o9RCNZYAAAAJ&hl=en) and [Prof. Adnan Ul-Hasan](https://scholar.google.com/citations?user=U5-TXNAAAAAJ&hl=en), and affiliated with the [**TUKL-DLL Lab, NCAI**](https://dll.seecs.nust.edu.pk/).
 
-My research sits under **Fractional Machine Learning / Deep Learning**: using fractional calculus to build and train neural models, and neural models to learn fractional-order dynamics. I develop **intelligent neural surrogates**, mainly data-driven autoregressive emulators for fractional-order nonlinear dynamical systems; my thesis designs surrogate networks that reconstruct the nonlinear dynamics of neuronal systems. A second thread is fractional-calculus-inspired deep learning optimization for accelerated large language model training.
+My work is in **Fractional Machine Learning / Deep Learning**. I build **intelligent neural surrogates**, mostly data-driven autoregressive emulators, for fractional-order nonlinear dynamical systems, and my thesis designs surrogate networks that reconstruct the dynamics of neuronal systems. A related thread uses fractional calculus to improve deep learning optimization, with the goal of faster large language model training.
 
 I have authored **30 publications** across 26 journals indexed in the WoS Core Collection, including *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate master's students).
 
