@@ -6,6 +6,42 @@
 @use "variables" as v;
 
 /* ============================================================================
+ * Shared identity primitives
+ *   %mono-label  - the one Fira Code "chrome" label used by eyebrows, news
+ *                  pills, topic chips, lead pills, year counts. Extend it so
+ *                  the system can't drift.
+ *   .tnum        - tabular + lining numerals for stat strips and dates.
+ * ========================================================================= */
+
+:root {
+  --navbar-height: 64px;
+}
+
+%mono-label {
+  font-family: 'Fira Code', 'Roboto Mono', ui-monospace, SFMono-Regular, monospace;
+  font-weight: 500;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums lining-nums;
+  line-height: 1.4;
+  color: var(--global-text-color-light);
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.kicker {
+  @extend %mono-label;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+/* Visible keyboard focus everywhere (declared late-ish via specificity below;
+   see the focus-visible override after the outline resets). */
+
+/* ============================================================================
  * Fade-in animation (preserved from original site)
  * ========================================================================= */
 
@@ -662,9 +698,10 @@ html[data-theme="dark"] {
 
 .about .clearfix > p {
   font-size: 1.1rem;
-  line-height: 1.85;
+  line-height: 1.7;
   text-align: justify;
   word-spacing: -0.5px;
+  max-width: 72ch;
 }
 
 .about h2 {
@@ -747,6 +784,7 @@ html[data-theme="dark"] {
   font-weight: 700;
   color: var(--global-theme-color);
   line-height: 1.2;
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
 .scholar-label {
@@ -875,4 +913,21 @@ html[data-theme="dark"] .cv .card-title {
 /* 404 page heading */
 html[data-theme="dark"] .post-title {
   color: #d4b0ff;
+}
+
+/* ============================================================================
+ * Visible keyboard focus (declared last so it wins over outline:none resets)
+ * ========================================================================= */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible,
+.zij-chip:focus-visible,
+.topic-chip:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+  border-radius: 3px;
 }
