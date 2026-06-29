@@ -29,7 +29,7 @@ I am a Direct PhD student, having transitioned from the Master's program in Sept
 
 My work is in **Fractional Machine Learning / Deep Learning**. I build **intelligent neural surrogates**, mostly data-driven autoregressive emulators, for fractional-order nonlinear dynamical systems, and my thesis designs surrogate networks that reconstruct the dynamics of neuronal systems. A related thread uses fractional calculus to improve deep learning optimization, with the goal of faster large language model training.
 
-I have authored **30 publications** across 26 journals indexed in the WoS Core Collection, including *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate master's students).
+I have authored **30 publications**, 27 of them indexed in the WoS Core Collection, in journals such as *Chaos, Solitons & Fractals*, *Water Research*, *IEEE Transactions on Computational Biology and Bioinformatics*, *Nonlinear Dynamics*, and *Engineering Applications of Artificial Intelligence*. I am a member of the **Phi Tau Phi Scholastic Honor Society** (top 2% of graduate master's students).
 
 I also maintain **[zij](/projects/zij/)** ([companion site](https://junaidaliop.github.io/zij/), [GitHub](https://github.com/junaidaliop/zij)), a reference library for deep learning optimizers; its catalogue covers 740 methods across 11 categories, with 100+ implemented in an accompanying PyTorch library.
 
