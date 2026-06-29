@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "30 publications across 26 journals indexed in the WoS Core Collection.",
+          description: "30 publications, 27 indexed in the WoS Core Collection.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
