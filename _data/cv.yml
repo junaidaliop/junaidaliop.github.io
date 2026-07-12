@@ -5,7 +5,7 @@ cv:
   location: Yunlin, Taiwan
   image: prof_pic.jpg
   summary: |
-    **Direct PhD in Computer Science** at National Yunlin University of Science and Technology (YunTech), Taiwan. Machine Learning Researcher in **Fractional Machine Learning / Deep Learning**.
+    **Direct PhD in Computer Science** at National Yunlin University of Science and Technology (YunTech), Taiwan. Machine Learning Researcher.
 
     - Intelligent neural surrogates for fractional-order dynamical systems
     - Fractional-calculus-inspired deep learning optimization
@@ -31,7 +31,7 @@ cv:
         highlights:
           - "Selected for Direct PhD program (Sept 2025)"
           - "Supervisor: Prof. Chuan-Yu Chang"
-          - "Research: Fractional Machine Learning / Deep Learning, neural surrogates for fractional-order dynamical systems, deep learning optimization"
+          - "Research: Fractional Deep Learning, neural surrogates for fractional-order dynamical systems, deep learning optimization"
 
       - institution: National University of Sciences and Technology (NUST)
         location: Islamabad, Pakistan
@@ -173,7 +173,7 @@ cv:
 
       - name: Spanish
         icon: fa-solid fa-language
-        summary: Conversational (rusty; 800-day Duolingo streak now broken)
+        summary: Conversational (rusty; 790-day Duolingo streak)
 
       - name: Mandarin Chinese
         icon: fa-solid fa-language
@@ -198,13 +198,12 @@ cv:
       - name: Chess
         icon: fa-solid fa-chess-knight
         keywords:
-          - "Casual player (pretty meh, honestly)"
+          - "Casual player"
 
       - name: Reading
         icon: fa-solid fa-book
         keywords:
-          - "Currently chipping away at Dostoyevsky's <em>Crime and Punishment</em>; Tolstoy on deck"
-          - "Reads widely around current research topics"
+          - "Currently chipping away at Dostoyevsky's <em>Crime and Punishment</em>"
 
       - name: Touch Typing
         icon: fa-solid fa-keyboard
