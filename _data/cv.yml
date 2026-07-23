@@ -7,6 +7,7 @@ cv:
   summary: |
     **Direct PhD in Computer Science** at National Yunlin University of Science and Technology (YunTech), Taiwan. Machine Learning Researcher.
 
+    - Fractional Deep Learning
     - Intelligent neural surrogates for fractional-order dynamical systems
     - Fractional-calculus-inspired deep learning optimization
     - 30 publications, 27 indexed in the WoS Core Collection (h-index 10, 221 Google Scholar citations)
@@ -31,7 +32,6 @@ cv:
         highlights:
           - "Selected for Direct PhD program (Sept 2025)"
           - "Supervisor: Prof. Chuan-Yu Chang"
-          - "Research: Fractional Deep Learning, neural surrogates for fractional-order dynamical systems, deep learning optimization"
 
       - institution: National University of Sciences and Technology (NUST)
         location: Islamabad, Pakistan
