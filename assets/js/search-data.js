@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "30 publications, 27 indexed in the WoS Core Collection.",
+          description: "31 publications, 28 indexed in the WoS Core Collection.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -78,6 +78,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-my-google-scholar-profile-reached-an-h-index-of-10-an-i10-index-of-10-and-221-citations-thanks-to-my-collaborators-and-readers",
           title: 'My Google Scholar profile reached an h-index of 10, an i10-index of 10,...',
+          description: "",
+          section: "News",},{id: "news-published-in-journal-of-industrial-information-integration-a-nonlinear-fractional-malware-transmission-model-for-industrial-cyber-physical-systems-with-dual-infection-rates-my-4th-paper-in-a-journal-with-impact-factor-above-10-and-my-2nd-in-jiii",
+          title: 'Published in Journal of Industrial Information Integration: a nonlinear fractional malware transmission model...',
           description: "",
           section: "News",},{id: "projects-isic-2024-slice-3d",
           title: 'ISIC-2024 SLICE-3D',
